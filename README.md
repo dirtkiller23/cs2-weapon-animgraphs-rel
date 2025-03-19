@@ -3,3 +3,4 @@ CS2 Weapon Animgraph releases.
 (Remove the "csgo" from m_HideForRetailMods in both vdata_asset and anim_graph). 
  Create custom animgraphed weapons with ent_create custom_weaponname or compile the vdata_polygon map.
  To edit animgraphs, you need the cutdown Dota 2 SDK with the Animgraph editor.
+ Also includes decompiled weapon models.
