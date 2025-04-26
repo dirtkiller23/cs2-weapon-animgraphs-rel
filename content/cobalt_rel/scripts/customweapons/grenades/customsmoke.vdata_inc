@@ -1,0 +1,175 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	"custom_smoke" = 
+    {
+        _editor = 
+        {
+            folder_name = "Grenades"
+        }
+		m_bAnimgraphed = true
+        m_nKillAward = 300
+        m_nDamage = 50
+        m_iMaxClip1 = 0
+        m_iMaxClip2 = 0
+        m_iDefaultClip1 = 1
+        m_iDefaultClip2 = 1
+        m_bAllowFlipping = true
+        m_bBuiltRightHanded = true
+        m_bIsFullAuto = false
+        m_nNumBullets = 1
+        m_bMeleeWeapon = false
+        m_iWeight = 2
+        m_iRumbleEffect = -1
+        m_nPrimaryReserveAmmoMax = 0
+        m_nSecondaryReserveAmmoMax = 0
+        m_flInaccuracyJumpInitial = 0.000000
+        m_flInaccuracyJumpApex = 0.000000
+        m_flInaccuracyReload = 0.000000
+        m_nSpreadSeed = 0
+        m_flRecoveryTimeCrouch = 1.000000
+        m_flRecoveryTimeStand = 1.000000
+        m_flRecoveryTimeCrouchFinal = -1.000000
+        m_flRecoveryTimeStandFinal = -1.000000
+        m_nRecoveryTransitionStartBullet = 0
+        m_nRecoveryTransitionEndBullet = 0
+        m_flTimeToIdleAfterFire = 2.000000
+        m_flIdleInterval = 20.000000
+        m_flHeadshotMultiplier = 4.000000
+        m_flArmorRatio = 1.000000
+        m_flPenetration = 0.000000
+        m_flFlinchVelocityModifierLarge = 1.000000
+        m_flFlinchVelocityModifierSmall = 1.000000
+        m_flRange = 4096.000000
+        m_flRangeModifier = 0.990000
+        m_eSilencerType = "WEAPONSILENCER_NONE"
+        m_nCrosshairMinDistance = 4
+        m_nCrosshairDeltaDistance = 3
+        m_flAttackMovespeedFactor = 1.000000
+        m_bUnzoomsAfterShot = false
+        m_bHideViewModelWhenZoomed = false
+        m_nZoomLevels = 0
+        m_nZoomFOV1 = 90
+        m_nZoomFOV2 = 90
+        m_flZoomTime0 = 0.000000
+        m_flZoomTime1 = 0.000000
+        m_flZoomTime2 = 0.000000
+        m_flHeatPerShot = 0.250000
+        m_flInaccuracyPitchShift = 0.000000
+        m_flInaccuracyAltSoundThreshold = 0.000000
+        m_flBotAudibleRange = 2000.000000
+        m_bHasBurstMode = false
+        m_bIsRevolver = false
+        m_bCannotShootUnderwater = false
+        m_flCycleTime = 
+        [
+            0.150000,
+            0.300000,
+        ]
+        m_flMaxSpeed = 
+        [
+            245.000000,
+            245.000000,
+        ]
+        m_flSpread = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flInaccuracyCrouch = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flInaccuracyStand = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flInaccuracyJump = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flInaccuracyLand = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flInaccuracyLadder = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flInaccuracyFire = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flInaccuracyMove = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flRecoilAngle = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flRecoilAngleVariance = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flRecoilMagnitude = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flRecoilMagnitudeVariance = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_nTracerFrequency = 0
+        m_bAutoSwitchFrom = true
+        m_bAutoSwitchTo = true
+        _base = "weapon_smokegrenade_prefab"
+        taxonomy = 
+        {
+            weapon = true
+            self_damage_on_miss__inflicts_damage = true
+            grenade = true
+            grenade_smoke = true
+        }
+        _class = "weapon_smokegrenade"
+        m_GearSlot = "GEAR_SLOT_GRENADES"
+        m_WeaponType = "WEAPONTYPE_GRENADE"
+        m_aShootSounds = 
+        {
+            WEAPON_SOUND_RADIO_USE = soundevent:"Radio.Smoke"
+            WEAPON_SOUND_SINGLE = soundevent:"SmokeGrenade.Throw"
+            WEAPON_SOUND_NEARLYEMPTY = soundevent:"Default.nearlyempty"
+        }
+        m_szUseRadioSubtitle = "#SFUI_TitlesTXT_Smoke_in_the_hole"
+        m_szName = "weapon_smokegrenade"
+        m_szWorldModel = resource_name:"weapons/models_custom/grenades/smokegrenade/smokegrenade_custom.vmdl"
+        m_szPlayerModel = resource_name:"weapons/models_custom/grenades/smokegrenade/smokegrenade_custom.vmdl"
+        m_szWorldDroppedModel = resource_name:"weapons/models_custom/grenades/smokegrenade/smokegrenade_custom.vmdl"
+        m_szViewModel = resource_name:"weapons/models_custom/grenades/smokegrenade/smokegrenade_custom.vmdl"
+        m_WeaponAnimgraph = resource_name:"weapons/models_custom/grenades/smokegrenade/smokegrenade_custom.vanmgrph"
+        m_nPrimaryAmmoType = "AMMO_TYPE_SMOKEGRENADE"
+        m_szAnimExtension = "gren"
+        m_vSmokeColor = 
+        [
+            0.000000,
+            0.800000,
+            0.000000,
+        ]
+        m_nPrice = 300
+        m_flThrowVelocity = 750.000000
+        m_iFlags = "ITEM_FLAG_EXHAUSTIBLE"
+        m_GearSlotPosition = 2
+        m_DefaultLoadoutPosition = "LOADOUT_POSITION_GRENADE4"
+    }
+}

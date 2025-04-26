@@ -1,0 +1,733 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+				primary_root_bone = ""
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "healthshot_content_src"
+						filename = "weapons/models_custom/others/healthshot/healthshot_skel.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "camera_inventory"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 12.03607, -8.503672, 0.893499 ]
+						relative_angles = [ 4.181643, 145.659805, 31.86002 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "weapon_holster_center"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "turn_off_motion"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.9
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 1.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "firstperson_draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"HEGrenade.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/others/healthshot/anims/firstperson_draw.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/others/healthshot/anims/firstperson_idle.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_inject"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 4
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Healthshot.Prepare"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 20
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Healthshot.Thud"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WPN_HEALTHSHOT_INJECT"
+								event_frame = 20
+								event_end_frame = -1
+								event_keys = null
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/others/healthshot/anims/firstperson_inject.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimBindPose"
+						name = "tools_preview"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+					},
+					{
+						_class = "AnimBindPose"
+						name = "inventory_inspect"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+					},
+					{
+						_class = "AnimBindPose"
+						name = "holstered"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+					},
+					{
+						_class = "AnimBindPose"
+						name = "dropped"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Metal.Small"
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							dmg.bullets = -1.0
+							dmg.club = -1.0
+							dmg.explosive = -1.0
+							dmg.fire = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "weapon_metadata"
+						game_keys = 
+						{
+							is_unified_model = true
+							holster_attachment_preferred = "pistol"
+							holster_attachment_fallback = "pistol"
+							reloads_with_clips = true
+							magazine_model = resource:""
+							fire_sequence_name = "firstperson_inject"
+							fire_sequence_name_2 = ""
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								name = "weapon_hand_r"
+								parent_bone = "weapon_hand_r"
+								surface_property = "default"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -0.909627, -0.713063, -5.659891 ]
+								hitbox_maxs = [ 0.909669, 0.713084, 5.065253 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "weapon_hand_r"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "v_weapon_cap"
+								origin = [ 0.000004, 0.000001, -3.107165 ]
+								angles = [ 0.000038, -0.000007, 0.000018 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "v_weapon_button"
+								origin = [ 0.000004, -0.000001, 4.168503 ]
+								angles = [ 0.000038, -0.000007, 0.000018 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "v_weapon_needle_enclosure"
+								origin = [ 0.000004, 0.000001, -3.107165 ]
+								angles = [ 0.000038, -0.000007, 0.000018 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "v_weapon_wing1"
+								origin = [ -0.387506, 0.148834, -3.344001 ]
+								angles = [ 0.000038, -0.000007, 0.000018 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "v_weapon_wing2"
+								origin = [ 0.386588, 0.148835, -3.344001 ]
+								angles = [ 0.000038, -0.000007, 0.000018 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.000007, 0.000034 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "arm_lower_l"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "hand_l"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "finger_thumb_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_thumb_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_thumb_2_l"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_index_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_index_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_index_2_l"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_middle_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_middle_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_middle_2_l"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_ring_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_ring_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_ring_2_l"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_pinky_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_pinky_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_pinky_2_l"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ 0.000017, -0.000001, -0.000001 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "arm_lower_l_twist"
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ 0.000017, -0.000001, -0.000001 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.0, -0.000002 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "arm_lower_r"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "hand_r"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "finger_thumb_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_thumb_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_thumb_2_r"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_index_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_index_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_index_2_r"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_middle_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_middle_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_middle_2_r"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_ring_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_ring_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_ring_2_r"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_pinky_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_pinky_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_pinky_2_r"
+														origin = [ 0.0, 0.0, 0.0 ]
+														angles = [ -0.0, -0.0, -0.0 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.0, 0.0, 0.0 ]
+												angles = [ -0.0, -0.0, -0.0 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 0.0, 0.0, 0.0 ]
+										angles = [ -0.0, -0.0, -0.0 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ 0.000017, -0.000001, -0.000001 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "arm_lower_r_twist"
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ 0.000017, -0.000001, -0.000001 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.0, -0.000002 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsShapeCapsule"
+						parent_bone = ""
+						surface_prop = "weapon"
+						collision_prop = "default"
+						tool_material = ""
+						radius = 0.692138
+						point0 = [ 0.0, 0.0, 4.2353 ]
+						point1 = [ 0.0, 0.0, -5.08824 ]
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = "weapons/models_custom/others/healthshot/healthshot_custom.vanmgrph"
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

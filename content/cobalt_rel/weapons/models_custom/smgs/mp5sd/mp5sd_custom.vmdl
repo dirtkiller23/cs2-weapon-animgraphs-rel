@@ -1,0 +1,2317 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+				primary_root_bone = ""
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "body_legacy"
+						filename = "weapons/models_custom/smgs/mp5sd/mp5sd_skel.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"renderMeshShape1",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "body_hd"
+						filename = "weapons/models_custom/smgs/mp5sd/mp5sd_skel.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"renderMeshShape0",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "body"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body_hd",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body_legacy",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+						non_bodygroup_single_choice = false
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle_flash"
+						parent_bone = "muzzle"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "shell_eject"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 4.97011, -0.383708, 5.360414 ]
+						relative_angles = [ -16.225611, -92.182266, 1.807835 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "weapon_holster_center"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 2.454095, -0.046331, 3.686491 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "camera_inventory"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 24.490089, 20.05522, 3.718356 ]
+						relative_angles = [ 3.48855, -120.917702, -2.015854 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "stattrak"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 3.736961, 0.509048, 3.466142 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "stattrak_legacy"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 3.636887, 0.480542, 3.395329 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "nametag"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 5.561045, 0.755997, 5.187941 ]
+						relative_angles = [ -0.082386, -0.302217, 36.32925 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "nametag_legacy"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 5.327559, 0.55838, 5.949576 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "keychain"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ -2.056562, 1.374723, 5.046214 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "keychain_legacy"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ -2.200407, 1.296702, 5.08528 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "turn_off_motion"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.9
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 1.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "AnimFile"
+						name = "tools_preview"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/tools_preview.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inventory_inspect"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/inventory_inspect.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inventory_apply_keychain"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/inventory_apply_keychain.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "dropped"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/dropped.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holstered"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/holstered.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_idle.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 5
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Slideback"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 22
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Clipout"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 56
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Clipin"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 73
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.SlideForward"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WPN_COMPLETE_RELOAD"
+								event_frame = 60
+								event_end_frame = -1
+								event_keys = null
+							},
+							{
+								_class = "AnimGameplayTiming"
+								gameplay_identifier = "reload"
+								b_override_timing = false
+								fl_override_timing_value = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.05
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_reload.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot1"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_shoot1.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 7
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 20
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.SlideForward_Q"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimGameplayTiming"
+								gameplay_identifier = "deploy"
+								b_override_timing = false
+								fl_override_timing_value = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_draw.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_draw2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 7
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 18
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.SlideForward_Q"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_draw2.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 125
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.WeaponMove1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 130
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.WeaponMove2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 163
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.WeaponMove3"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 210
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Grab"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.1
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_lookat01.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01_loop"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.1
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_lookat01_loop.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "Folder"
+						name = "third_person_anims"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_catch"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/smgs/mp5sd/anims/sh_rifl_catch.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_deploy"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/smgs/mp5sd/anims/sh_rifl_deploy.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_deploy_02"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/smgs/mp5sd/anims/sh_rifl_deploy_02.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_deploy_03"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/smgs/mp5sd/anims/sh_rifl_deploy_03.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_crouch_rifl_deploy"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/smgs/mp5sd/anims/sh_crouch_rifl_deploy.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_smg_firing_additive"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+										event_frame = 0
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = resource:"particles/unified_weapon_fx/uweapon_muzsilenced_subm.vpcf"
+											detach_from_owner = false
+											always_run = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = null
+											config = "thirdperson"
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+										event_frame = 0
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_9mm.vpcf"
+											detach_from_owner = false
+											always_run = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = null
+											config = "shell_eject"
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/smgs/mp5sd/anims/sh_smg_firing_additive.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_smg_mp5sd_stand_reload"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 18
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_MP5.Slideback"
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 18
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_MP5.Clipout"
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 44
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_MP5.Clipin"
+											tags = ""
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 60
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_MP5.SlideForward"
+											tags = ""
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/smgs/mp5sd/anims/sh_smg_mp5sd_stand_reload.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot1_additive"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/unified_weapon_fx/uweapon_muzsilenced_subm_fps.vpcf"
+									detach_from_owner = false
+									always_run = true
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = "muzzleflash"
+									attachment_point = "muzzle_flash"
+									attachment_type = "point_follow"
+									attachment_point_cp1 = null
+									attachment_type_cp1 = "point_follow"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_9mm.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "shell_eject"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_shoot1_additive.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01_start"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 2
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 125
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.WeaponMove1"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 130
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.WeaponMove2"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.1
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_lookat01_start.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01_end"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 23
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.WeaponMove3"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 70
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_MP5.Grab"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.1
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/firstperson_lookat01_end.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inventory_icon"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/smgs/mp5sd/anims/inventory_icon.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						parent_bone = ""
+						surface_prop = "WeaponSMG"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "weapons/models_custom/smgs/mp5sd/mp5sd_hull.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Metal.Small"
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							dmg.bullets = -1.0
+							dmg.club = -1.0
+							dmg.explosive = -1.0
+							dmg.fire = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "weapon_metadata"
+						game_keys = 
+						{
+							is_unified_model = true
+							holster_attachment_preferred = "smg_front"
+							holster_attachment_fallback = "primary"
+							reloads_with_clips = true
+							magazine_model = resource:"weapons/models/mp5sd/weapon_smg_mp5sd_mag.vmdl"
+							fire_sequence_name = "sh_smg_firing_additive"
+							fire_sequence_name_2 = ""
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								name = "weapon_hand_r"
+								parent_bone = "weapon_hand_r"
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -5.326823, -1.428818, -4.577888 ]
+								hitbox_maxs = [ 22.76757, 1.23103, 7.306214 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "Softbody"
+				children = 
+				[
+					{
+						_class = "ClothShapeSDF"
+						name = "weapon_hand_r_clothSDF"
+						parent_bone = "weapon_hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						filename = ""
+						use_render_mesh_list = true
+						renderMeshList = [  ]
+						supplementalBoneList = [  ]
+						res_width = 64
+						apply_fast_sweep = true
+						convexify = false
+						algo = 3
+						sample_rays = 32
+						add_radius = 0.0
+						blur_radius = 0
+						deflate_after_blur = 0.0
+						margin = 0.0
+					},
+					{
+						_class = "ClothShapeSDF"
+						name = "v_weapon_mp5sd_clip_sdf"
+						parent_bone = "v_weapon_mag"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						filename = ""
+						use_render_mesh_list = true
+						renderMeshList = [  ]
+						supplementalBoneList = [  ]
+						res_width = 16
+						apply_fast_sweep = true
+						convexify = false
+						algo = 3
+						sample_rays = 32
+						add_radius = 0.0
+						blur_radius = 0
+						deflate_after_blur = 0.0
+						margin = 0.0
+					},
+					{
+						_class = "ClothShapeBox"
+						name = "weapon_hand_r_clothBox"
+						disabled = true
+						parent_bone = "weapon_hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						dimensions = [ 4.3, 0.5, 3.5 ]
+						origin = [ 2.72, 0.044, 2.72 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "ClothShapeSphere"
+						name = "hand_r_clothSphere"
+						parent_bone = "hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius = 1.0
+						center = [ 0.56, -0.08, 0.2 ]
+					},
+					{
+						_class = "ClothShapeSphere"
+						name = "hand_l"
+						parent_bone = "hand_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius = 1.0
+						center = [ 0.03, -0.24, 0.0 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "hand_r_clothCapsule"
+						parent_bone = "hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.87
+						radius1 = 0.89
+						point0 = [ 3.70586, -0.243633, 1.09048 ]
+						point1 = [ 1.18061, -0.146597, 1.17896 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "hand_r_clothCapsule1"
+						parent_bone = "hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 1.3
+						radius1 = 1.44
+						point0 = [ 3.05581, 0.823614, -0.918165 ]
+						point1 = [ 3.53346, 1.21782, -0.054371 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_index_2_r_clothCapsule"
+						parent_bone = "finger_index_2_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.39
+						radius1 = 0.46
+						point0 = [ 0.996667, 0.038172, -0.053089 ]
+						point1 = [ 0.074961, 0.029243, -0.009911 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "arm_lower_r_clothCapsule"
+						parent_bone = "arm_lower_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 1.28
+						radius1 = 2.35
+						point0 = [ 10.2956, 0.167407, -0.444911 ]
+						point1 = [ 0.0, 0.380402, 0.370009 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "arm_lower_l_clothCapsule"
+						parent_bone = "arm_lower_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 1.29
+						radius1 = 2.45
+						point0 = [ 10.2956, 0.017379, 0.209882 ]
+						point1 = [ 0.0, 0.225578, 0.16361 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_index_0_l_clothCapsule"
+						parent_bone = "finger_index_0_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.62
+						radius1 = 0.78
+						point0 = [ 1.17167, 0.02747, 0.018327 ]
+						point1 = [ -0.338466, -0.18708, -0.199032 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "hand_l_clothCapsule"
+						parent_bone = "hand_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.69
+						radius1 = 1.16
+						point0 = [ 3.61801, -0.299227, -1.23389 ]
+						point1 = [ 0.968636, -0.078829, -0.742451 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_0_l_clothCapsule"
+						parent_bone = "finger_thumb_0_l"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.94
+						radius1 = 1.1
+						point0 = [ 0.712121, 0.004413, -0.015954 ]
+						point1 = [ -0.80303, 0.658781, -0.145162 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_1_l_clothCapsule"
+						parent_bone = "finger_thumb_1_l"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.52
+						radius1 = 0.87
+						point0 = [ 2.25358, -0.075786, 0.0 ]
+						point1 = [ -1.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_0_r_clothCapsule"
+						parent_bone = "finger_thumb_0_r"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.87
+						radius1 = 1.0
+						point0 = [ 1.33836, -0.032073, 0.044855 ]
+						point1 = [ -0.121679, 0.055796, -0.032997 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_2_r_clothCapsule"
+						parent_bone = "finger_thumb_2_r"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.6
+						radius1 = 0.6
+						point0 = [ -0.393939, 0.0, 0.0 ]
+						point1 = [ 0.916694, -0.07776, -0.040556 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_1_r_clothCapsule"
+						parent_bone = "finger_thumb_1_r"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.7
+						radius1 = 0.81
+						point0 = [ 0.924242, 0.0, 0.0 ]
+						point1 = [ -0.333333, 0.0, 0.0 ]
+					},
+					{
+						_class = "ClothNode"
+						name = "weapon_hand_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "weapon_hand_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = -1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "v_weapon_mp5sd_clip_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "v_weapon_mag"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "hand_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "hand_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_index_2_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_index_2_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "arm_lower_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "arm_lower_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "arm_lower_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "arm_lower_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_index_0_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_index_0_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "hand_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "hand_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_0_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_0_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_1_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_1_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_0_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_0_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_2_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_2_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_1_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_1_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+				]
+				stiffness_on_ragdoll = 0.0
+				motion_smooth_cdt = 0.0
+				cloth_sleep_enabled = false
+				cloth_immovable_hint = false
+				cloth_per_bone_scale_enabled = false
+				cloth_enable_empty_model = true
+				cloth_keychain_motion = true
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "weapon_hand_r"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "muzzle"
+								origin = [ 22.751301, 0.038599, 4.60826 ]
+								angles = [ -0.000003, 0.0, -0.000003 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "v_weapon_mag"
+								origin = [ 7.662371, 0.0, -0.204349 ]
+								angles = [ 0.0, 90.001724, -0.000003 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "v_weapon_trigger"
+								origin = [ 2.227114, 0.0, 2.078984 ]
+								angles = [ 0.0, 90.001724, -0.000003 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "v_weapon_bolt"
+								origin = [ 11.99851, 0.340075, 6.146095 ]
+								angles = [ 0.0, 90.001724, -0.000003 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 0.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "arm_lower_l"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "hand_l"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "finger_thumb_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_thumb_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_thumb_2_l"
+														origin = [ 1.565432, -0.000034, -0.000025 ]
+														angles = [ 2.530597, 9.755941, 0.131588 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.698242, -0.000019, -0.000017 ]
+												angles = [ -3.408908, 16.876619, -0.045633 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 1.410156, 0.740723, -1.176759 ]
+										angles = [ 30.790157, 19.366924, 92.342834 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_index_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_index_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_index_2_l"
+														origin = [ 1.267581, -0.000013, 0.000036 ]
+														angles = [ -1.372149, 51.513714, -1.755 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.99414, -0.00001, 0.000011 ]
+												angles = [ -0.704891, 28.798712, 0.676942 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 4.045256, -0.265622, -0.933348 ]
+										angles = [ -31.667734, 25.00099, -14.959 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_middle_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_middle_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_middle_2_l"
+														origin = [ 1.413088, -0.000006, 0.00001 ]
+														angles = [ 0.488667, 51.524624, 0.614805 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 2.075716, -0.000004, 0.000002 ]
+												angles = [ 0.202129, 35.808132, 1.723438 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 4.045877, -0.213893, -0.013479 ]
+										angles = [ -21.582447, 62.577984, -13.455033 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_ring_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_ring_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_ring_2_l"
+														origin = [ 1.279289, -0.000019, 0.00001 ]
+														angles = [ 0.498086, 22.81513, 0.307389 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.910157, -0.000008, 0.000004 ]
+												angles = [ -0.036991, 41.742249, 0.097064 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.617188, -0.000298, 1.047852 ]
+										angles = [ -16.043423, 76.187775, -27.328842 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_pinky_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_pinky_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_pinky_2_l"
+														origin = [ 0.87207, -0.000019, 0.000007 ]
+														angles = [ -0.88457, 12.470535, -0.146383 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.509768, 0.0, 0.000009 ]
+												angles = [ 3.986178, 29.343, 1.32028 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.087229, 0.350084, 1.900797 ]
+										angles = [ -13.071669, 81.138954, -23.687519 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 10.280543, 0.000604, -0.554029 ]
+								angles = [ -6.723422, 3.55737, -147.310257 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "arm_lower_l_twist"
+								origin = [ 0.01671, -0.041719, -0.00278 ]
+								angles = [ 3.078356, 0.008182, -47.470234 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 14.95543, 1.974088, -8.551474 ]
+						angles = [ -11.591344, -29.451408, -101.656143 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "arm_lower_r"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "hand_r"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "finger_thumb_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_thumb_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_thumb_2_r"
+														origin = [ 1.312499, 0.435057, -0.050777 ]
+														angles = [ 6.035633, 72.279366, 8.326564 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.564452, 0.156737, -0.024583 ]
+												angles = [ 4.367012, -4.027349, 5.380779 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 1.028319, 0.24524, 1.537111 ]
+										angles = [ -2.881362, 40.724369, -147.453827 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_index_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_index_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_index_2_r"
+														origin = [ 1.066407, 0.088011, 0.007507 ]
+														angles = [ 6.868111, 69.547295, 8.61172 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.490234, 0.009416, -0.001133 ]
+												angles = [ 7.894993, 43.547016, 2.784182 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.792686, 0.258933, 1.279167 ]
+										angles = [ -10.736417, -3.220556, 17.860209 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_middle_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_middle_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_middle_2_r"
+														origin = [ 1.007805, -0.000023, -0.000009 ]
+														angles = [ 0.600851, 23.142557, 0.123022 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.774412, 0.00001, -0.00001 ]
+												angles = [ 2.017739, 93.154869, -1.351165 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.800781, -0.132567, 0.288333 ]
+										angles = [ -0.367281, 60.332104, 13.751431 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_ring_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_ring_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_ring_2_r"
+														origin = [ 0.90479, 0.000002, -0.000008 ]
+														angles = [ -2.475483, 61.676872, -1.489589 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.3125, -0.08692, -0.072022 ]
+												angles = [ -11.036613, 34.47094, 0.935923 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.619133, -0.287841, -0.688476 ]
+										angles = [ -0.824081, 56.823303, 2.011869 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_pinky_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_pinky_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_pinky_2_r"
+														origin = [ 0.682618, 0.0, -0.000009 ]
+														angles = [ 0.509289, 47.807014, 0.523276 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 0.962891, 0.000002, -0.000004 ]
+												angles = [ -9.788304, 34.872292, -1.530931 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.314302, 0.050424, -1.533237 ]
+										angles = [ 1.240067, 36.789738, 8.326379 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 10.254357, -0.309047, 0.709337 ]
+								angles = [ -0.527063, 13.228316, 110.339821 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "arm_lower_r_twist"
+								origin = [ 0.057281, -0.057372, 0.0034 ]
+								angles = [ -3.949518, -1.727949, -4.178287 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 1.356019, -7.557556, -8.00645 ]
+						angles = [ -1.844182, 3.316289, -116.172615 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "v_weapon_bip01_prop1"
+						origin = [ 14.72764, -5.327609, -7.896289 ]
+						angles = [ 24.250532, 13.93734, 7.600204 ]
+						do_not_discard = true
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = "weapons/models_custom/smgs/mp5sd/mp5sd_custom.vanmgrph"
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

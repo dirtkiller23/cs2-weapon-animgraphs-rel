@@ -1,0 +1,167 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	"custom_bizon" = 
+    {
+        _editor = 
+        {
+            folder_name = "SMGs"
+        }
+        m_bAnimgraphed = true
+        m_nKillAward = 600
+        m_nDamage = 27
+        m_iMaxClip1 = 64
+        m_iMaxClip2 = 0
+        m_iDefaultClip1 = -1
+        m_iDefaultClip2 = -1
+        m_bAllowFlipping = true
+        m_bBuiltRightHanded = true
+        m_bIsFullAuto = true
+        m_nNumBullets = 1
+        m_bMeleeWeapon = false
+        m_iWeight = 26
+        m_iRumbleEffect = 3
+        m_nPrimaryReserveAmmoMax = 120
+        m_nSecondaryReserveAmmoMax = 0
+        m_flInaccuracyJumpInitial = 0.045900
+        m_flInaccuracyJumpApex = 0.000000
+        m_flInaccuracyReload = 0.000000
+        m_nSpreadSeed = 0
+        m_flRecoveryTimeCrouch = 0.236837
+        m_flRecoveryTimeStand = 0.331572
+        m_flRecoveryTimeCrouchFinal = 0.236837
+        m_flRecoveryTimeStandFinal = 0.331572
+        m_nRecoveryTransitionStartBullet = 2
+        m_nRecoveryTransitionEndBullet = 5
+        m_flTimeToIdleAfterFire = 2.000000
+        m_flIdleInterval = 20.000000
+        m_flHeadshotMultiplier = 4.000000
+        m_flArmorRatio = 1.260000
+        m_flPenetration = 1.000000
+        m_flFlinchVelocityModifierLarge = 0.000000
+        m_flFlinchVelocityModifierSmall = 0.000000
+        m_flRange = 3600.000000
+        m_flRangeModifier = 0.800000
+        m_eSilencerType = "WEAPONSILENCER_NONE"
+        m_nCrosshairMinDistance = 7
+        m_nCrosshairDeltaDistance = 3
+        m_flAttackMovespeedFactor = 1.000000
+        m_bUnzoomsAfterShot = false
+        m_bHideViewModelWhenZoomed = false
+        m_nZoomLevels = 0
+        m_nZoomFOV1 = 90
+        m_nZoomFOV2 = 90
+        m_flZoomTime0 = 0.000000
+        m_flZoomTime1 = 0.000000
+        m_flZoomTime2 = 0.000000
+        m_flHeatPerShot = 0.300000
+        m_flInaccuracyPitchShift = 0.000000
+        m_flInaccuracyAltSoundThreshold = 0.000000
+        m_flBotAudibleRange = 2000.000000
+        m_bHasBurstMode = false
+        m_bIsRevolver = false
+        m_bCannotShootUnderwater = false
+        m_flCycleTime = 0.080000
+        m_flMaxSpeed = 
+        [
+            240.000000,
+            240.000000,
+        ]
+        m_flSpread = 
+        [
+            0.001000,
+            0.001000,
+        ]
+        m_flInaccuracyCrouch = 
+        [
+            0.010500,
+            0.010500,
+        ]
+        m_flInaccuracyStand = 
+        [
+            0.014000,
+            0.014000,
+        ]
+        m_flInaccuracyJump = 
+        [
+            0.033470,
+            0.033470,
+        ]
+        m_flInaccuracyLand = 
+        [
+            0.000080,
+            0.000080,
+        ]
+        m_flInaccuracyLadder = 
+        [
+            0.169650,
+            0.169650,
+        ]
+        m_flInaccuracyFire = 
+        [
+            0.002880,
+            0.002880,
+        ]
+        m_flInaccuracyMove = 
+        [
+            0.027570,
+            0.027570,
+        ]
+        m_flRecoilAngle = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flRecoilAngleVariance = 
+        [
+            70.000000,
+            70.000000,
+        ]
+        m_flRecoilMagnitude = 
+        [
+            18.000000,
+            18.000000,
+        ]
+        m_flRecoilMagnitudeVariance = 
+        [
+            1.000000,
+            1.000000,
+        ]
+        m_nTracerFrequency = 3
+        m_bAutoSwitchFrom = true
+        m_bAutoSwitchTo = true
+        _base = "weapon_bizon_prefab"
+        taxonomy = 
+        {
+            weapon = true
+            self_damage_on_miss__inflicts_damage = true
+            primary = true
+            smg = true
+        }
+        _class = "weapon_bizon"
+        m_GearSlot = "GEAR_SLOT_RIFLE"
+        m_GearSlotPosition = 0
+        m_WeaponType = "WEAPONTYPE_SUBMACHINEGUN"
+        m_szName = "weapon_bizon"
+        m_szWorldModel = resource_name:"weapons/models_custom/smgs/bizon/bizon_custom.vmdl"
+        m_szPlayerModel = resource_name:"weapons/models_custom/smgs/bizon/bizon_custom.vmdl"
+        m_szWorldDroppedModel = resource_name:"weapons/models_custom/smgs/bizon/bizon_custom.vmdl"
+        m_szViewModel = resource_name:"weapons/models_custom/smgs/bizon/bizon_custom.vmdl"
+        m_WeaponAnimgraph = resource_name:"weapons/models_custom/smgs/bizon/bizon_custom.vanmgrph"
+        m_szTracerParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_tracers_smg.vpcf"
+        m_szHeatEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_smoke.vpcf"
+        m_szEjectBrassEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_shell_casing_9mm.vpcf"
+        m_szMuzzleFlashParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_smg.vpcf"
+        m_szMuzzleFlashThirdPersonParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_smg.vpcf"
+        m_aShootSounds = 
+        {
+            WEAPON_SOUND_SINGLE = soundevent:"Weapon_bizon.Single"
+            WEAPON_SOUND_NEARLYEMPTY = soundevent:"Default.nearlyempty"
+        }
+        m_nPrimaryAmmoType = "BULLET_PLAYER_9MM"
+        m_szAnimExtension = "bizon"
+        m_nPrice = 1400
+        m_nRecoilSeed = 36387
+        m_DefaultLoadoutPosition = "LOADOUT_POSITION_SMG4"
+    }
+}

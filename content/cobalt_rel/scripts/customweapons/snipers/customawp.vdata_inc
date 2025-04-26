@@ -1,0 +1,169 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	"custom_awp" = 
+    {
+        _editor = 
+        {
+            folder_name = "Snipers"
+        }
+        m_bAnimgraphed = true
+        m_nKillAward = 100
+        m_nDamage = 115
+        m_iMaxClip1 = 5
+        m_iMaxClip2 = 0
+        m_iDefaultClip1 = -1
+        m_iDefaultClip2 = -1
+        m_bAllowFlipping = true
+        m_bBuiltRightHanded = true
+        m_bIsFullAuto = false
+        m_nNumBullets = 1
+        m_bMeleeWeapon = false
+        m_iWeight = 30
+        m_iRumbleEffect = 2
+        m_nPrimaryReserveAmmoMax = 30
+        m_nSecondaryReserveAmmoMax = 0
+        m_flInaccuracyJumpInitial = 0.172860
+        m_flInaccuracyJumpApex = 0.000000
+        m_flInaccuracyReload = 0.000000
+        m_nSpreadSeed = 0
+        m_flRecoveryTimeCrouch = 0.246710
+        m_flRecoveryTimeStand = 0.345390
+        m_flRecoveryTimeCrouchFinal = 0.246710
+        m_flRecoveryTimeStandFinal = 0.345390
+        m_nRecoveryTransitionStartBullet = 2
+        m_nRecoveryTransitionEndBullet = 5
+        m_flTimeToIdleAfterFire = 2.000000
+        m_flIdleInterval = 60.000000
+        m_flHeadshotMultiplier = 4.000000
+        m_flArmorRatio = 1.950000
+        m_flPenetration = 2.500000
+        m_flFlinchVelocityModifierLarge = 0.350000
+        m_flFlinchVelocityModifierSmall = 0.400000
+        m_flRange = 8192.000000
+        m_flRangeModifier = 0.990000
+        m_eSilencerType = "WEAPONSILENCER_NONE"
+        m_nCrosshairMinDistance = 8
+        m_nCrosshairDeltaDistance = 3
+        m_flAttackMovespeedFactor = 1.000000
+        m_bUnzoomsAfterShot = true
+        m_bHideViewModelWhenZoomed = true
+        m_nZoomLevels = 2
+        m_nZoomFOV1 = 40
+        m_nZoomFOV2 = 10
+        m_flZoomTime0 = 0.050000
+        m_flZoomTime1 = 0.050000
+        m_flZoomTime2 = 0.050000
+        m_flHeatPerShot = 1.500000
+        m_flInaccuracyPitchShift = 0.000000
+        m_flInaccuracyAltSoundThreshold = 0.000000
+        m_flBotAudibleRange = 2000.000000
+        m_bHasBurstMode = false
+        m_bIsRevolver = false
+        m_bCannotShootUnderwater = false
+        m_flCycleTime = 1.455000
+        m_flMaxSpeed = 
+        [
+            200.000000,
+            100.000000,
+        ]
+        m_flSpread = 
+        [
+            0.000200,
+            0.000200,
+        ]
+        m_flInaccuracyCrouch = 
+        [
+            0.060600,
+            0.001500,
+        ]
+        m_flInaccuracyStand = 
+        [
+            0.080800,
+            0.002000,
+        ]
+        m_flInaccuracyJump = 
+        [
+            0.133830,
+            0.133830,
+        ]
+        m_flInaccuracyLand = 
+        [
+            0.000307,
+            0.000100,
+        ]
+        m_flInaccuracyLadder = 
+        [
+            0.136500,
+            0.136500,
+        ]
+        m_flInaccuracyFire = 
+        [
+            0.053850,
+            0.053850,
+        ]
+        m_flInaccuracyMove = 
+        [
+            0.176480,
+            0.176480,
+        ]
+        m_flRecoilAngle = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flRecoilAngleVariance = 
+        [
+            20.000000,
+            20.000000,
+        ]
+        m_flRecoilMagnitude = 
+        [
+            78.000000,
+            25.000000,
+        ]
+        m_flRecoilMagnitudeVariance = 
+        [
+            15.000000,
+            2.000000,
+        ]
+        m_nTracerFrequency = 1
+        m_bAutoSwitchFrom = true
+        m_bAutoSwitchTo = true
+        _base = "weapon_awp_prefab"
+        taxonomy = 
+        {
+            weapon = true
+            self_damage_on_miss__inflicts_damage = true
+            primary = true
+            sniper_rifle = true
+        }
+        _class = "weapon_awp"
+        m_GearSlot = "GEAR_SLOT_RIFLE"
+        m_GearSlotPosition = 0
+        m_WeaponType = "WEAPONTYPE_SNIPER_RIFLE"
+        m_szName = "weapon_awp"
+        m_szWorldModel = resource_name:"weapons/models_custom/snipers/awp/awp_custom.vmdl"
+        m_szPlayerModel = resource_name:"weapons/models_custom/snipers/awp/awp_custom.vmdl"
+        m_szWorldDroppedModel = resource_name:"weapons/models_custom/snipers/awp/awp_custom.vmdl"
+        m_szViewModel = resource_name:"weapons/models_custom/snipers/awp/awp_custom.vmdl"
+        m_WeaponAnimgraph = resource_name:"weapons/models_custom/snipers/awp/awp_custom.vanmgrph"
+        m_szTracerParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_tracers_rifle.vpcf"
+        m_szHeatEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_smoke.vpcf"
+        m_szEjectBrassEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_shell_casing_50cal.vpcf"
+        m_szMuzzleFlashParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_awp.vpcf"
+        m_szMuzzleFlashThirdPersonParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_awp.vpcf"
+        m_aShootSounds = 
+        {
+            WEAPON_SOUND_SINGLE = soundevent:"Weapon_AWP.Single"
+            WEAPON_SOUND_NEARLYEMPTY = soundevent:"Default.nearlyempty"
+            WEAPON_SOUND_ZOOM_IN = soundevent:"Weapon_AWP.Zoom"
+            WEAPON_SOUND_ZOOM_OUT = soundevent:"Weapon_AWP.ZoomOut"
+        }
+        m_nPrimaryAmmoType = "BULLET_PLAYER_338MAG"
+        m_szAnimExtension = "awp"
+        m_nPrice = 4750
+        m_nRecoilSeed = 4100
+        m_DefaultLoadoutPosition = "LOADOUT_POSITION_RIFLE4"
+    }
+}

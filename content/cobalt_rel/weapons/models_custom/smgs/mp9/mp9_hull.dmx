@@ -1,0 +1,111 @@
+<!-- dmx encoding keyvalues2 4 format model 22 -->
+"DmElement"
+{
+    "id" "elementid" "538f0496-a609-4b34-a811-609aac80b3d7"
+    "name" "string" "root"
+    "skeleton" "element" "ce69853b-a71a-4d43-920d-7a8322e33745"
+    "model" "element" "ce69853b-a71a-4d43-920d-7a8322e33745"
+    "exportTags" "DmeExportTags"
+    {
+        "id" "elementid" "a64e4ae0-9bb6-49de-a50e-64efdc247378"
+        "name" "string" "exportTags"
+        "source" "string" "Generated with Source 2 Viewer 11.1.0.0 - https://valveresourceformat.github.io"
+    }
+}
+
+"DmeModel"
+{
+    "id" "elementid" "ce69853b-a71a-4d43-920d-7a8322e33745"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "3e5bc10c-805b-4aa6-8211-6bf526ab2a35"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "element" ""
+    "visible" "bool" "1"
+    "children" "element_array"
+    [
+        "element" "c2b1dcee-d670-449b-966e-e4a6906ec62e"
+    ]
+    "jointList" "element_array"
+    [
+        "element" "c2b1dcee-d670-449b-966e-e4a6906ec62e"
+    ]
+    "baseStates" "element_array"
+    [
+        "DmeTransformsList"
+        {
+            "id" "elementid" "9c1f723c-5c2e-4708-bf79-04fc77b6d126"
+            "transforms" "element_array"
+            [
+                "DmeTransform"
+                {
+                    "id" "elementid" "276acffe-9e2e-4978-a9e3-fbc58671a0aa"
+                    "position" "vector3" "0 0 0"
+                    "orientation" "quaternion" "0 0 0 1"
+                }
+            ]
+        }
+    ]
+    "axisSystem" "DmeAxisSystem"
+    {
+        "id" "elementid" "476874f2-2985-491d-a053-5fd3bb318157"
+        "upAxis" "int" "3"
+        "forwardParity" "int" "1"
+        "coordSys" "int" "0"
+    }
+}
+
+"DmeDag"
+{
+    "id" "elementid" "c2b1dcee-d670-449b-966e-e4a6906ec62e"
+    "transform" "DmeTransform"
+    {
+        "id" "elementid" "b5a93cea-f9e1-4036-b168-596cdf684276"
+        "position" "vector3" "0 0 0"
+        "orientation" "quaternion" "0 0 0 1"
+    }
+    "shape" "DmeMesh"
+    {
+        "id" "elementid" "a207172d-589d-4ca0-928a-c39afea34e2b"
+        "visible" "bool" "1"
+        "bindState" "element" ""
+        "currentState" "element" "f2298cf7-2967-4dac-97ce-4dc47d11af39"
+        "baseStates" "element_array"
+        [
+            "element" "f2298cf7-2967-4dac-97ce-4dc47d11af39"
+        ]
+        "deltaStates" "element_array" [ ]
+        "faceSets" "element_array"
+        [
+            "DmeFaceSet"
+            {
+                "id" "elementid" "cc667e49-bbc4-48dd-bacc-9960d7535419"
+                "name" "string" "hull faces"
+                "faces" "int_array" [ "7", "5", "6", "0", "-1", "10", "0", "6", "9", "-1", "11", "7", "0", "-1", "11", "0", "10", "-1", "14", "21", "8", "3", "-1", "15", "2", "8", "21", "-1", "16", "7", "11", "4", "-1", "16", "4", "8", "2", "-1", "17", "3", "8", "4", "-1", "17", "4", "11", "10", "-1", "18", "13", "15", "21", "-1", "18", "21", "14", "12", "-1", "19", "12", "14", "3", "17", "10", "9", "-1", "19", "9", "6", "1", "-1", "20", "13", "18", "1", "-1", "20", "1", "6", "5", "-1", "20", "5", "7", "16", "2", "15", "13", "-1", "19", "1", "18", "12", "-1" ]
+                "material" "DmeMaterial"
+                {
+                    "id" "elementid" "f0fdd756-bec0-4ac8-862e-e201fe8af4da"
+                    "name" "string" "material"
+                    "mtlName" "string" "$WeaponSMG"
+                }
+            }
+        ]
+        "deltaStateWeights" "vector2_array" [ ]
+        "deltaStateWeightsLagged" "vector2_array" [ ]
+    }
+    "visible" "bool" "1"
+    "children" "element_array" [ ]
+}
+
+"DmeVertexData"
+{
+    "id" "elementid" "f2298cf7-2967-4dac-97ce-4dc47d11af39"
+    "name" "string" "bind"
+    "vertexFormat" "string_array" [ "position$0" ]
+    "jointCount" "int" "0"
+    "flipVCoordinates" "bool" "0"
+    "position$0" "vector3_array" [ "8.76304 4.296708E-06 2.508966", "1.4283261 3.2932167E-07 -5.4703026", "-12.448232 -0.999995 2.7836404", "-12.448232 1.0000057 2.783639", "5.315033 6.163691E-06 4.976428", "6.329509 -0.9999976 -1.0679173", "7.037183 1.9436288E-06 -1.7744576", "8.050446 -0.9999954 3.2032971", "-13.0940075 5.91736E-06 3.7045002", "6.329508 1.0000026 -1.0679188", "8.050447 1.0000049 3.2032976", "8.761884 5.5496153E-06 3.9505324", "0.64856863 1.000001 -4.7638206", "0.64856863 -0.9999994 -4.7638197", "-12.772715 1.0000036 -0.9059528", "-12.772715 -0.99999666 -0.9059516", "5.3327475 -0.9999951 4.012173", "5.3327513 1.0000056 4.0121727", "0.050159454 3.9033603E-07 -5.4714074", "0.7206526 1.0000008 -4.7637634", "0.7206526 -0.9999994 -4.7637615", "-13.557007 3.1040963E-06 -1.5601084" ]
+    "position$0Indices" "int_array" [ "0", "1", "2", "3", "4", "5", "6", "7", "8", "9", "10", "11", "12", "13", "14", "15", "16", "17", "18", "19", "20", "21", "22", "23", "24", "25", "26", "27", "28", "29", "30", "31", "32", "33", "34", "35", "36", "37", "38", "39", "40", "41", "42", "43", "44", "45", "46", "47", "48", "49", "50", "51", "52", "53", "54", "55", "56", "57", "58", "59", "60", "61", "62", "63", "64", "65" ]
+}

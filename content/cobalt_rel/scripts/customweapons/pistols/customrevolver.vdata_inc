@@ -1,0 +1,176 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	"custom_revolver" = 
+    {
+		_editor = 
+        {
+            folder_name = "Pistols"
+        }
+        m_bAnimgraphed = true
+        m_nKillAward = 300
+        m_nDamage = 86
+        m_iMaxClip1 = 8
+        m_iMaxClip2 = 0
+        m_iDefaultClip1 = -1
+        m_iDefaultClip2 = -1
+        m_bAllowFlipping = true
+        m_bBuiltRightHanded = true
+        m_bIsFullAuto = true
+        m_nNumBullets = 1
+        m_bMeleeWeapon = false
+        m_iWeight = 7
+        m_iRumbleEffect = 2
+        m_nPrimaryReserveAmmoMax = 8
+        m_nSecondaryReserveAmmoMax = 0
+        m_flInaccuracyJumpInitial = 0.018650
+        m_flInaccuracyJumpApex = 0.000000
+        m_flInaccuracyReload = 0.000000
+        m_nSpreadSeed = 0
+        m_flRecoveryTimeCrouch = 0.700000
+        m_flRecoveryTimeStand = 0.900000
+        m_flRecoveryTimeCrouchFinal = 0.449927
+        m_flRecoveryTimeStandFinal = 0.811200
+        m_nRecoveryTransitionStartBullet = 3
+        m_nRecoveryTransitionEndBullet = 10
+        m_flTimeToIdleAfterFire = 1.500000
+        m_flIdleInterval = 60.000000
+        m_flHeadshotMultiplier = 4.000000
+        m_flArmorRatio = 1.864000
+        m_flPenetration = 2.000000
+        m_flFlinchVelocityModifierLarge = 0.400000
+        m_flFlinchVelocityModifierSmall = 0.400000
+        m_flRange = 4096.000000
+        m_flRangeModifier = 0.940000
+        m_eSilencerType = "WEAPONSILENCER_NONE"
+        m_nCrosshairMinDistance = 4
+        m_nCrosshairDeltaDistance = 3
+        m_flAttackMovespeedFactor = 1.000000
+        m_bUnzoomsAfterShot = false
+        m_bHideViewModelWhenZoomed = false
+        m_nZoomLevels = 0
+        m_nZoomFOV1 = 90
+        m_nZoomFOV2 = 90
+        m_flZoomTime0 = 0.000000
+        m_flZoomTime1 = 0.000000
+        m_flZoomTime2 = 0.000000
+        m_flHeatPerShot = 0.250000
+        m_flInaccuracyPitchShift = 0.000000
+        m_flInaccuracyAltSoundThreshold = 0.000000
+        m_flBotAudibleRange = 2000.000000
+        m_bHasBurstMode = false
+        m_bIsRevolver = true
+        m_bCannotShootUnderwater = false
+        m_flCycleTime = 
+        [
+            0.500000,
+            0.400000,
+        ]
+        m_flMaxSpeed = 
+        [
+            180.000000,
+            220.000000,
+        ]
+        m_flSpread = 
+        [
+            0.000520,
+            0.068000,
+        ]
+        m_flInaccuracyCrouch = 
+        [
+            0.001000,
+            0.005000,
+        ]
+        m_flInaccuracyStand = 
+        [
+            0.002000,
+            0.012000,
+        ]
+        m_flInaccuracyJump = 
+        [
+            0.053230,
+            0.053230,
+        ]
+        m_flInaccuracyLand = 
+        [
+            0.000130,
+            0.000150,
+        ]
+        m_flInaccuracyLadder = 
+        [
+            0.012000,
+            0.035000,
+        ]
+        m_flInaccuracyFire = 
+        [
+            0.050000,
+            0.055000,
+        ]
+        m_flInaccuracyMove = 
+        [
+            0.006500,
+            0.036000,
+        ]
+        m_flRecoilAngle = 
+        [
+            0.000000,
+            3.000000,
+        ]
+        m_flRecoilAngleVariance = 
+        [
+            40.000000,
+            50.000000,
+        ]
+        m_flRecoilMagnitude = 
+        [
+            20.000000,
+            45.000000,
+        ]
+        m_flRecoilMagnitudeVariance = 
+        [
+            0.000000,
+            6.000000,
+        ]
+        m_nTracerFrequency = 
+        [
+            1,
+            1,
+        ]
+        m_bAutoSwitchFrom = true
+        m_bAutoSwitchTo = true
+        _base = "weapon_revolver_prefab"
+        taxonomy = 
+        {
+            weapon = true
+            self_damage_on_miss__inflicts_damage = true
+            secondary = true
+            pistol = true
+        }
+        _class = "weapon_deagle"
+        m_GearSlot = "GEAR_SLOT_PISTOL"
+        m_GearSlotPosition = 0
+        m_WeaponType = "WEAPONTYPE_PISTOL"
+        m_szAnimClass = "weapon_revolver"
+        m_szName = "weapon_revolver"
+        m_szWorldModel = resource_name:"weapons/models_custom/pistols/revolver/revolver_custom.vmdl"
+        m_szPlayerModel = resource_name:"weapons/models_custom/pistols/revolver/revolver_custom.vmdl"
+        m_szWorldDroppedModel = resource_name:"weapons/models_custom/pistols/revolver/revolver_custom.vmdl"
+        m_szViewModel = resource_name:"weapons/models_custom/pistols/revolver/revolver_custom.vmdl"
+		m_WeaponAnimgraph = resource_name:"weapons/models_custom/pistols/revolver/revolver_custom.vanmgrph"
+        m_szTracerParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_tracers_pistol.vpcf"
+        m_szHeatEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_smoke.vpcf"
+        m_szEjectBrassEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_shell_casing_9mm.vpcf"
+        m_szMuzzleFlashParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_assaultrifle.vpcf"
+        m_szMuzzleFlashThirdPersonParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_assaultrifle.vpcf"
+        m_aShootSounds = 
+        {
+            WEAPON_SOUND_SINGLE = soundevent:"Weapon_Revolver.Single"
+            WEAPON_SOUND_NEARLYEMPTY = soundevent:"Default.nearlyempty"
+        }
+        m_nPrimaryAmmoType = "BULLET_PLAYER_50AE"
+        m_szAnimExtension = "pistol"
+        m_nPrice = 600
+        m_nRecoilSeed = 12345
+        m_DefaultLoadoutPosition = "LOADOUT_POSITION_SECONDARY4"
+    }
+}

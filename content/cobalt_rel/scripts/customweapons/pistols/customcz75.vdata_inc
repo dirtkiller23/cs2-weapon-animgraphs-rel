@@ -1,0 +1,168 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	"custom_cz75" = 
+    {
+        _editor = 
+        {
+            folder_name = "Pistols"
+        }
+        m_bAnimgraphed = true
+        m_nKillAward = 300
+        m_nDamage = 31
+        m_iMaxClip1 = 12
+        m_iMaxClip2 = 0
+        m_iDefaultClip1 = -1
+        m_iDefaultClip2 = -1
+        m_bAllowFlipping = true
+        m_bBuiltRightHanded = true
+        m_bIsFullAuto = true
+        m_nNumBullets = 1
+        m_bMeleeWeapon = false
+        m_iWeight = 5
+        m_iRumbleEffect = 1
+        m_nPrimaryReserveAmmoMax = 12
+        m_nSecondaryReserveAmmoMax = 0
+        m_flInaccuracyJumpInitial = 0.096620
+        m_flInaccuracyJumpApex = 0.000000
+        m_flInaccuracyReload = 0.000000
+        m_nSpreadSeed = 0
+        m_flRecoveryTimeCrouch = 0.227500
+        m_flRecoveryTimeStand = 0.242500
+        m_flRecoveryTimeCrouchFinal = 0.287823
+        m_flRecoveryTimeStandFinal = 0.345388
+        m_nRecoveryTransitionStartBullet = 3
+        m_nRecoveryTransitionEndBullet = 10
+        m_flTimeToIdleAfterFire = 2.000000
+        m_flIdleInterval = 20.000000
+        m_flHeadshotMultiplier = 4.000000
+        m_flArmorRatio = 1.553000
+        m_flPenetration = 1.000000
+        m_flFlinchVelocityModifierLarge = 0.500000
+        m_flFlinchVelocityModifierSmall = 0.650000
+        m_flRange = 4096.000000
+        m_flRangeModifier = 0.850000
+        m_eSilencerType = "WEAPONSILENCER_NONE"
+        m_nCrosshairMinDistance = 8
+        m_nCrosshairDeltaDistance = 3
+        m_flAttackMovespeedFactor = 1.000000
+        m_bUnzoomsAfterShot = false
+        m_bHideViewModelWhenZoomed = false
+        m_nZoomLevels = 0
+        m_nZoomFOV1 = 90
+        m_nZoomFOV2 = 90
+        m_flZoomTime0 = 0.000000
+        m_flZoomTime1 = 0.000000
+        m_flZoomTime2 = 0.000000
+        m_flHeatPerShot = 0.300000
+        m_flInaccuracyPitchShift = 0.000000
+        m_flInaccuracyAltSoundThreshold = 0.000000
+        m_flBotAudibleRange = 2000.000000
+        m_bHasBurstMode = false
+        m_bIsRevolver = false
+        m_bCannotShootUnderwater = false
+        m_flCycleTime = 0.100000
+        m_flMaxSpeed = 
+        [
+            240.000000,
+            240.000000,
+        ]
+        m_flSpread = 
+        [
+            0.003000,
+            0.003000,
+        ]
+        m_flInaccuracyCrouch = 
+        [
+            0.007600,
+            0.007600,
+        ]
+        m_flInaccuracyStand = 
+        [
+            0.010430,
+            0.010430,
+        ]
+        m_flInaccuracyJump = 
+        [
+            0.092960,
+            0.092960,
+        ]
+        m_flInaccuracyLand = 
+        [
+            0.000190,
+            0.000190,
+        ]
+        m_flInaccuracyLadder = 
+        [
+            0.138000,
+            0.138000,
+        ]
+        m_flInaccuracyFire = 
+        [
+            0.035000,
+            0.025000,
+        ]
+        m_flInaccuracyMove = 
+        [
+            0.013410,
+            0.013410,
+        ]
+        m_flRecoilAngle = 
+        [
+            0.000000,
+            0.000000,
+        ]
+        m_flRecoilAngleVariance = 
+        [
+            120.000000,
+            180.000000,
+        ]
+        m_flRecoilMagnitude = 
+        [
+            31.000000,
+            27.000000,
+        ]
+        m_flRecoilMagnitudeVariance = 
+        [
+            6.000000,
+            12.000000,
+        ]
+        m_nTracerFrequency = 1
+        m_bAutoSwitchFrom = true
+        m_bAutoSwitchTo = true
+        _base = "weapon_cz75a_prefab"
+        taxonomy = 
+        {
+            weapon = true
+            self_damage_on_miss__inflicts_damage = true
+            secondary = true
+            pistol = true
+        }
+        _class = "weapon_p250"
+        m_GearSlot = "GEAR_SLOT_PISTOL"
+        m_GearSlotPosition = 0
+        m_WeaponType = "WEAPONTYPE_PISTOL"
+        m_szAnimClass = "weapon_cz75a"
+        m_szName = "weapon_cz75a"
+        m_szWorldModel = resource_name:"weapons/models_custom/pistols/cz75/cz75_custom.vmdl"
+        m_szPlayerModel = resource_name:"weapons/models_custom/pistols/cz75/cz75_custom.vmdl"
+        m_szWorldDroppedModel = resource_name:"weapons/models_custom/pistols/cz75/cz75_custom.vmdl"
+        m_szViewModel = resource_name:"weapons/models_custom/pistols/cz75/cz75_custom.vmdl"
+        m_WeaponAnimgraph = resource_name:"weapons/models_custom/pistols/cz75/cz75_custom.vanmgrph"
+        m_szTracerParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_tracers_pistol.vpcf"
+        m_szHeatEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_smoke.vpcf"
+        m_szEjectBrassEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_shell_casing_9mm.vpcf"
+        m_szMuzzleFlashParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_pistol.vpcf"
+        m_szMuzzleFlashThirdPersonParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_pistol.vpcf"
+        m_aShootSounds = 
+        {
+            WEAPON_SOUND_SINGLE = soundevent:"Weapon_CZ75A.Single"
+            WEAPON_SOUND_NEARLYEMPTY = soundevent:"Default.nearlyempty"
+        }
+        m_nPrimaryAmmoType = "BULLET_PLAYER_357SIG_MIN"
+        m_szAnimExtension = "pistol"
+        m_nPrice = 500
+        m_nRecoilSeed = 9788
+        m_DefaultLoadoutPosition = "LOADOUT_POSITION_SECONDARY3"
+    }
+}

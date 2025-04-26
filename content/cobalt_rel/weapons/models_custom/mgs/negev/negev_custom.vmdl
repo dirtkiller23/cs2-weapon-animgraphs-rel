@@ -1,0 +1,4481 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc39:version{1ceecb0d-4093-4729-ab18-b76886c64cde} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "BoneMarkupList"
+				bone_cull_type = "None"
+				primary_root_bone = ""
+			},
+			{
+				_class = "RenderMeshList"
+				children = 
+				[
+					{
+						_class = "RenderMeshFile"
+						name = "body_legacy"
+						filename = "weapons/models_custom/mgs/negev/negev_skel.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"renderMeshShape1",
+							]
+						}
+					},
+					{
+						_class = "RenderMeshFile"
+						name = "body_hd"
+						filename = "weapons/models_custom/mgs/negev/negev_skel.fbx"
+						import_scale = 1.0
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = 
+							[
+								"renderMeshShape0",
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "BodyGroupList"
+				children = 
+				[
+					{
+						_class = "BodyGroup"
+						name = "body"
+						children = 
+						[
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body_hd",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = 
+								[
+									"body_legacy",
+								]
+							},
+							{
+								_class = "BodyGroupChoice"
+								meshes = [  ]
+							},
+						]
+						hidden_in_tools = false
+						non_bodygroup_single_choice = false
+					},
+				]
+			},
+			{
+				_class = "AttachmentList"
+				children = 
+				[
+					{
+						_class = "Attachment"
+						name = "muzzle_flash"
+						parent_bone = "muzzle"
+						relative_origin = [ 0.0, 0.0, 0.0 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "shell_eject"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 6.228145, -1.392956, 5.552978 ]
+						relative_angles = [ -5.729402, -91.250793, -0.983171 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "weapon_holster_center"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 2.244208, -0.020923, 3.185934 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "camera_inventory"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 27.703671, 25.59144, 3.667652 ]
+						relative_angles = [ 1.788327, -123.311401, -2.191862 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "stattrak"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 4.110322, 0.933197, 3.150438 ]
+						relative_angles = [ 0.0, 0.0, 0.090084 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "stattrak_legacy"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 4.564679, 0.843041, 3.128387 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "nametag"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 0.965471, 1.264269, 4.309298 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "nametag_legacy"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 1.007815, 1.000634, 4.185321 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "keychain"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 2.291082, 1.084463, 3.345919 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+					{
+						_class = "Attachment"
+						name = "keychain_legacy"
+						parent_bone = "weapon_hand_r"
+						relative_origin = [ 2.425286, 0.980884, 3.275104 ]
+						relative_angles = [ 0.0, 0.0, 0.0 ]
+						weight = 1.0
+						ignore_rotation = false
+					},
+				]
+			},
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "turn_off_motion"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.9
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 1.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled2"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled3"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled4"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled5"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled6"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled7"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled8"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled9"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled10"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled11"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold12"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled12"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold12"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold13"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled13"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold12"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold13"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold14"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled14"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold12"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold13"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold14"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold15"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled15"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold12"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold13"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold14"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold15"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold16"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled16"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_ammobox"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold12"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold13"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold14"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold15"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold16"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold17"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bullets_scaled17"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_l_twist"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r_twist"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_ammobox"
+								weight = 0.0
+							},
+							{
+								bone = "v_weapon_bullet17"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold02"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold03"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold04"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold05"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold06"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold07"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold08"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold09"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold10"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold11"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold12"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold13"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold14"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold15"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold16"
+								weight = 1.0
+							},
+							{
+								bone = "v_weapon_bullet_scaffold17"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+				]
+			},
+			{
+				_class = "AnimationList"
+				children = 
+				[
+					{
+						_class = "Folder"
+						name = "third_person_anims"
+						children = 
+						[
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_catch"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/mgs/negev/anims/sh_rifl_catch.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_deploy"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/mgs/negev/anims/sh_rifl_deploy.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_deploy_02"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/mgs/negev/anims/sh_rifl_deploy_02.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_rifl_deploy_03"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/mgs/negev/anims/sh_rifl_deploy_03.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_crouch_rifl_deploy"
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/mgs/negev/anims/sh_crouch_rifl_deploy.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_mach_firing_additive"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+										event_frame = 0
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_rifle.vpcf"
+											detach_from_owner = false
+											always_run = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = null
+											config = "shell_eject"
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+										event_frame = 0
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = resource:"particles/unified_weapon_fx/uweapon_muzflsh_mach.vpcf"
+											detach_from_owner = false
+											always_run = false
+											stop_on_seq_change = false
+											stop_immediately = false
+											use_layer_sequence = false
+											tags = null
+											config = "thirdperson"
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/mgs/negev/anims/sh_mach_firing_additive.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+							{
+								_class = "AnimFile"
+								name = "sh_mach_negev_stand_reload"
+								children = 
+								[
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 17
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_Negev.Coverup"
+											tags = null
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 38
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_Negev.Boxout"
+											tags = null
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 77
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_Negev.Boxin"
+											tags = null
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 90
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_Negev.Chain"
+											tags = null
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 110
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_Negev.Coverdown"
+											tags = null
+										}
+									},
+									{
+										_class = "AnimEvent"
+										event_class = "AE_SV_PLAYSOUND"
+										event_frame = 133
+										event_end_frame = -1
+										event_keys = 
+										{
+											name = soundevent:"Weapon_Negev.Pump"
+											tags = null
+										}
+									},
+								]
+								activity_name = ""
+								activity_weight = 1
+								weight_list_name = ""
+								fade_in_time = 0.2
+								fade_out_time = 0.2
+								looping = false
+								delta = false
+								worldSpace = false
+								hidden = false
+								anim_markup_ordered = false
+								disable_compression = false
+								animgraph_additive = false
+								source_filename = "weapons/models_custom/mgs/negev/anims/sh_mach_negev_stand_reload.dmx"
+								import_bone_scales = false
+								start_frame = -1
+								end_frame = -1
+								framerate = -1.0
+								reverse = false
+							},
+						]
+					},
+					{
+						_class = "AnimFile"
+						name = "tools_preview"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/tools_preview.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inventory_inspect"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/inventory_inspect.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inventory_apply_keychain"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/inventory_apply_keychain.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "dropped"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/dropped.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "holstered"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/holstered.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_idle"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_idle.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot1"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_rifle.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "shell_eject"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/unified_weapon_fx/uweapon_muzflsh_mach_fps.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "fps_fire"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_shoot1.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot2"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_rifle.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "shell_eject"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/unified_weapon_fx/uweapon_muzflsh_mach_fps.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "fps_fire"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_shoot2.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 18
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Coverup"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 39
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Boxout"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 79
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Boxin"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 90
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Chain"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 114
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Coverdown"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 135
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Pump"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WPN_COMPLETE_RELOAD"
+								event_frame = 115
+								event_end_frame = -1
+								event_keys = null
+							},
+							{
+								_class = "AnimGameplayTiming"
+								gameplay_identifier = "reload"
+								b_override_timing = false
+								fl_override_timing_value = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_reload.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_draw"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Draw"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 8
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Pump_Q"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimGameplayTiming"
+								gameplay_identifier = "deploy"
+								b_override_timing = false
+								fl_override_timing_value = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_draw.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_BODYGROUP_SET_TO_CLIP"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = null
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.3
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_lookat01.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot_empty"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_shoot_empty.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_empty_reload"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 18
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Coverup"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 39
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Boxout"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 79
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Boxin"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 90
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Chain"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 114
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Coverdown"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_PLAYSOUND"
+								event_frame = 135
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = soundevent:"Weapon_Negev.Pump"
+									stop_on_seq_change = false
+									use_layer_sequence = false
+									tags = ""
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_WPN_COMPLETE_RELOAD"
+								event_frame = 115
+								event_end_frame = -1
+								event_keys = null
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_empty_reload.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot1_additive"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_rifle.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "shell_eject"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/unified_weapon_fx/uweapon_muzflsh_mach_fps.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "fps_fire"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_shoot1_additive.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot2_additive"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_rifle.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "shell_eject"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/unified_weapon_fx/uweapon_muzflsh_mach_fps.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "fps_fire"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_shoot2_additive.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01_loop"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.3
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_lookat01_loop.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_shoot_empty_additive"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/weapons/cs_weapon_fx/weapon_shell_casing_rifle.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "shell_eject"
+								}
+							},
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_CREATE_PARTICLE_EFFECT_CFG"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = 
+								{
+									name = resource:"particles/unified_weapon_fx/uweapon_muzflsh_mach_fps.vpcf"
+									detach_from_owner = false
+									always_run = false
+									stop_on_seq_change = false
+									stop_immediately = false
+									use_layer_sequence = false
+									tags = null
+									config = "fps_fire"
+								}
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_shoot_empty_additive.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01_start"
+						children = 
+						[
+							{
+								_class = "AnimEvent"
+								event_class = "AE_CL_BODYGROUP_SET_TO_CLIP"
+								event_frame = 0
+								event_end_frame = -1
+								event_keys = null
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.3
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_lookat01_start.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_lookat01_end"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.3
+						fade_out_time = 0.3
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_lookat01_end.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_17"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet17"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_17.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_16"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet16"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_16.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_15"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet15"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_15.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_14"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet14"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_14.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_13"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet13"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_13.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_12"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet12"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_12.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_11"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet11"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_11.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_10"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet10"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_10.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_09"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet09"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_09.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_08"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet08"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_08.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_07"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet07"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_07.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_06"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet06"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_06.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_05"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet05"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_05.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_04"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet04"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_04.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_03"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet03"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_03.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_02"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet02"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_02.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "firstperson_hide_bullet_01"
+						children = 
+						[
+							{
+								_class = "AnimForceBoneScale"
+								bone = "v_weapon_bullet01"
+								frame = 0
+								scale = 0.0
+							},
+						]
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = true
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/firstperson_hide_bullet_01.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "negev_firstperson_idle_from_activity"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.2
+						fade_out_time = 0.2
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/negev_firstperson_idle_from_activity.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+					{
+						_class = "AnimFile"
+						name = "inventory_icon"
+						activity_name = ""
+						activity_weight = 1
+						weight_list_name = ""
+						fade_in_time = 0.0
+						fade_out_time = 0.0
+						looping = false
+						delta = false
+						worldSpace = false
+						hidden = false
+						anim_markup_ordered = false
+						disable_compression = false
+						animgraph_additive = false
+						source_filename = "weapons/models_custom/mgs/negev/anims/inventory_icon.dmx"
+						import_bone_scales = false
+						start_frame = -1
+						end_frame = -1
+						framerate = -1.0
+						reverse = false
+					},
+				]
+				default_root_bone_name = ""
+			},
+			{
+				_class = "PhysicsShapeList"
+				children = 
+				[
+					{
+						_class = "PhysicsHullFile"
+						parent_bone = ""
+						surface_prop = "WeaponHeavy"
+						collision_prop = "default"
+						tool_material = ""
+						recenter_on_parent_bone = false
+						offset_origin = [ 0.0, 0.0, 0.0 ]
+						offset_angles = [ 0.0, 0.0, 0.0 ]
+						filename = "weapons/models_custom/mgs/negev/negev_hull.dmx"
+						import_scale = 1.0
+						faceMergeAngle = 10.0
+						maxHullVertices = 0
+						import_mode = "SingleHull"
+						small_element_threshold = 0.0
+						thin_element_threshold = 0.0
+						optimization_algorithm = "QEM"
+						import_filter = 
+						{
+							exclude_by_default = false
+							exception_list = [  ]
+						}
+					},
+				]
+				leave_body_collision_unmodified = false
+			},
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "prop_data"
+						game_keys = 
+						{
+							base = "Metal.Small"
+							allowstatic = false
+							bakelighting = true
+							damage_table = ""
+							dmg.bullets = -1.0
+							dmg.club = -1.0
+							dmg.explosive = -1.0
+							dmg.fire = -1.0
+							health = -1.0
+							spawn_motion_disabled = false
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "weapon_metadata"
+						game_keys = 
+						{
+							is_unified_model = true
+							holster_attachment_preferred = "primary"
+							holster_attachment_fallback = "primary"
+							reloads_with_clips = true
+							magazine_model = resource:"weapons/models/negev/weapon_mach_negev_mag.vmdl"
+							fire_sequence_name = "sh_mach_firing_additive"
+							fire_sequence_name_2 = ""
+						}
+					},
+				]
+			},
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "default"
+						children = 
+						[
+							{
+								_class = "Hitbox"
+								name = "weapon_hand_r"
+								parent_bone = "weapon_hand_r"
+								surface_property = "weapon"
+								translation_only = false
+								group_id = 0
+								hitbox_mins = [ -14.38911, -4.29216, -3.765308 ]
+								hitbox_maxs = [ 25.07885, 4.267207, 8.170782 ]
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "arm_lower_r"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "hand_r"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "weapon_hand_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "muzzle"
+												origin = [ 24.558205, 0.007049, 4.469056 ]
+												angles = [ 0.000005, -0.000002, 0.000002 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "v_weapon_trigger"
+												origin = [ 2.278754, -0.000057, 1.472098 ]
+												angles = [ 0.004931, 89.993546, 89.989906 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "v_weapon_chargehandle"
+												origin = [ 5.038997, -1.00982, 3.20461 ]
+												angles = [ -0.000025, -89.999763, -179.999756 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "v_weapon_tophinge"
+												origin = [ 8.57458, 0.167667, 5.308527 ]
+												angles = [ 0.004931, 89.993546, 89.989906 ]
+												do_not_discard = true
+											},
+											{
+												_class = "Bone"
+												name = "v_weapon_ammobox"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "v_weapon_bullet17"
+														children = 
+														[
+															{
+																_class = "Bone"
+																name = "v_weapon_bullet_scaffold17"
+																children = 
+																[
+																	{
+																		_class = "Bone"
+																		name = "v_weapon_bullet16"
+																		children = 
+																		[
+																			{
+																				_class = "Bone"
+																				name = "v_weapon_bullet_scaffold16"
+																				children = 
+																				[
+																					{
+																						_class = "Bone"
+																						name = "v_weapon_bullet15"
+																						children = 
+																						[
+																							{
+																								_class = "Bone"
+																								name = "v_weapon_bullet_scaffold15"
+																								children = 
+																								[
+																									{
+																										_class = "Bone"
+																										name = "v_weapon_bullet14"
+																										children = 
+																										[
+																											{
+																												_class = "Bone"
+																												name = "v_weapon_bullet_scaffold14"
+																												children = 
+																												[
+																													{
+																														_class = "Bone"
+																														name = "v_weapon_bullet13"
+																														children = 
+																														[
+																															{
+																																_class = "Bone"
+																																name = "v_weapon_bullet_scaffold13"
+																																children = 
+																																[
+																																	{
+																																		_class = "Bone"
+																																		name = "v_weapon_bullet12"
+																																		children = 
+																																		[
+																																			{
+																																				_class = "Bone"
+																																				name = "v_weapon_bullet_scaffold12"
+																																				children = 
+																																				[
+																																					{
+																																						_class = "Bone"
+																																						name = "v_weapon_bullet11"
+																																						children = 
+																																						[
+																																							{
+																																								_class = "Bone"
+																																								name = "v_weapon_bullet_scaffold11"
+																																								children = 
+																																								[
+																																									{
+																																										_class = "Bone"
+																																										name = "v_weapon_bullet10"
+																																										children = 
+																																										[
+																																											{
+																																												_class = "Bone"
+																																												name = "v_weapon_bullet_scaffold10"
+																																												children = 
+																																												[
+																																													{
+																																														_class = "Bone"
+																																														name = "v_weapon_bullet09"
+																																														children = 
+																																														[
+																																															{
+																																																_class = "Bone"
+																																																name = "v_weapon_bullet_scaffold09"
+																																																children = 
+																																																[
+																																																	{
+																																																		_class = "Bone"
+																																																		name = "v_weapon_bullet08"
+																																																		children = 
+																																																		[
+																																																			{
+																																																				_class = "Bone"
+																																																				name = "v_weapon_bullet_scaffold08"
+																																																				children = 
+																																																				[
+																																																					{
+																																																						_class = "Bone"
+																																																						name = "v_weapon_bullet07"
+																																																						children = 
+																																																						[
+																																																							{
+																																																								_class = "Bone"
+																																																								name = "v_weapon_bullet_scaffold07"
+																																																								children = 
+																																																								[
+																																																									{
+																																																										_class = "Bone"
+																																																										name = "v_weapon_bullet06"
+																																																										children = 
+																																																										[
+																																																											{
+																																																												_class = "Bone"
+																																																												name = "v_weapon_bullet_scaffold06"
+																																																												children = 
+																																																												[
+																																																													{
+																																																														_class = "Bone"
+																																																														name = "v_weapon_bullet05"
+																																																														children = 
+																																																														[
+																																																															{
+																																																																_class = "Bone"
+																																																																name = "v_weapon_bullet_scaffold05"
+																																																																children = 
+																																																																[
+																																																																	{
+																																																																		_class = "Bone"
+																																																																		name = "v_weapon_bullet04"
+																																																																		children = 
+																																																																		[
+																																																																			{
+																																																																				_class = "Bone"
+																																																																				name = "v_weapon_bullet_scaffold04"
+																																																																				children = 
+																																																																				[
+																																																																					{
+																																																																						_class = "Bone"
+																																																																						name = "v_weapon_bullet03"
+																																																																						children = 
+																																																																						[
+																																																																							{
+																																																																								_class = "Bone"
+																																																																								name = "v_weapon_bullet_scaffold03"
+																																																																								children = 
+																																																																								[
+																																																																									{
+																																																																										_class = "Bone"
+																																																																										name = "v_weapon_bullet02"
+																																																																										children = 
+																																																																										[
+																																																																											{
+																																																																												_class = "Bone"
+																																																																												name = "v_weapon_bullet_scaffold02"
+																																																																												children = 
+																																																																												[
+																																																																													{
+																																																																														_class = "Bone"
+																																																																														name = "v_weapon_bullet01"
+																																																																														origin = [ 0.533802, 0.0, 0.0 ]
+																																																																														angles = [ -0.009905, 0.009902, -0.000005 ]
+																																																																														do_not_discard = true
+																																																																													},
+																																																																												]
+																																																																												origin = [ 0.0, -0.0, 0.0 ]
+																																																																												angles = [ -0.000006, 0.000064, -0.000002 ]
+																																																																												do_not_discard = true
+																																																																											},
+																																																																										]
+																																																																										origin = [ 0.532748, 0.0, -0.000002 ]
+																																																																										angles = [ -0.000004, 0.316473, -0.000003 ]
+																																																																										do_not_discard = true
+																																																																									},
+																																																																								]
+																																																																								origin = [ -0.000298, 0.000004, 0.0 ]
+																																																																								angles = [ -0.000008, -0.000062, -0.000002 ]
+																																																																								do_not_discard = true
+																																																																							},
+																																																																						]
+																																																																						origin = [ 0.533161, 0.000001, -0.000001 ]
+																																																																						angles = [ 0.024719, 0.855754, 0.000177 ]
+																																																																						do_not_discard = true
+																																																																					},
+																																																																				]
+																																																																				origin = [ -0.0, 0.0, 0.000001 ]
+																																																																				angles = [ 0.000006, 0.00033, -0.000002 ]
+																																																																				do_not_discard = true
+																																																																			},
+																																																																		]
+																																																																		origin = [ 0.532377, -0.0, 0.0 ]
+																																																																		angles = [ 0.074175, 2.067242, 0.001338 ]
+																																																																		do_not_discard = true
+																																																																	},
+																																																																]
+																																																																origin = [ -0.000213, 0.000022, 0.0 ]
+																																																																angles = [ -0.000017, -0.000315, -0.000002 ]
+																																																																do_not_discard = true
+																																																															},
+																																																														]
+																																																														origin = [ 0.514482, 0.0, 0.0 ]
+																																																														angles = [ 0.207466, 5.997781, 0.010869 ]
+																																																														do_not_discard = true
+																																																													},
+																																																												]
+																																																												origin = [ -0.00046, 0.000139, -0.000002 ]
+																																																												angles = [ -0.000047, -0.001999, -0.000001 ]
+																																																												do_not_discard = true
+																																																											},
+																																																										]
+																																																										origin = [ 0.509023, 0.0, 0.000001 ]
+																																																										angles = [ 0.337659, 16.774952, 0.049784 ]
+																																																										do_not_discard = true
+																																																									},
+																																																								]
+																																																								origin = [ -0.000154, 0.000047, 0.0 ]
+																																																								angles = [ -0.00001, -0.000655, 0.000001 ]
+																																																								do_not_discard = true
+																																																							},
+																																																						]
+																																																						origin = [ 0.519772, -0.000001, 0.0 ]
+																																																						angles = [ 0.088066, 16.913414, 0.013092 ]
+																																																						do_not_discard = true
+																																																					},
+																																																				]
+																																																				origin = [ -0.000376, 0.000026, 0.000001 ]
+																																																				angles = [ 0.000006, -0.00035, 0.000002 ]
+																																																				do_not_discard = true
+																																																			},
+																																																		]
+																																																		origin = [ 0.536209, -0.000001, 0.000002 ]
+																																																		angles = [ -0.138422, 3.99268, -0.004821 ]
+																																																		do_not_discard = true
+																																																	},
+																																																]
+																																																origin = [ 0.000001, 0.0, 0.0 ]
+																																																angles = [ -0.00003, -0.000275, 0.000003 ]
+																																																do_not_discard = true
+																																															},
+																																														]
+																																														origin = [ 0.559122, 0.0, 0.000002 ]
+																																														angles = [ -0.118689, -1.379713, 0.001432 ]
+																																														do_not_discard = true
+																																													},
+																																												]
+																																												origin = [ -0.000278, -0.00002, 0.0 ]
+																																												angles = [ 0.0, 0.00027, 0.000002 ]
+																																												do_not_discard = true
+																																											},
+																																										]
+																																										origin = [ 0.531178, -0.000001, 0.000004 ]
+																																										angles = [ -0.093928, -4.096527, 0.003364 ]
+																																										do_not_discard = true
+																																									},
+																																								]
+																																								origin = [ 0.0, 0.0, 0.0 ]
+																																								angles = [ -0.000025, -0.001261, 0.000002 ]
+																																								do_not_discard = true
+																																							},
+																																						]
+																																						origin = [ 0.539716, -0.0, -0.000001 ]
+																																						angles = [ -0.123307, -8.384946, 0.009041 ]
+																																						do_not_discard = true
+																																					},
+																																				]
+																																				origin = [ -0.000194, -0.000078, 0.000001 ]
+																																				angles = [ 0.000007, 0.001083, 0.000001 ]
+																																				do_not_discard = true
+																																			},
+																																		]
+																																		origin = [ 0.53596, -0.000001, -0.000001 ]
+																																		angles = [ -0.262215, -21.947525, 0.050846 ]
+																																		do_not_discard = true
+																																	},
+																																]
+																																origin = [ -0.000047, -0.000045, 0.0 ]
+																																angles = [ 0.000002, 0.000746, -0.000002 ]
+																																do_not_discard = true
+																															},
+																														]
+																														origin = [ 0.512791, -0.0, 0.000002 ]
+																														angles = [ -0.465028, -45.645126, 0.195692 ]
+																														do_not_discard = true
+																													},
+																												]
+																												origin = [ -0.000019, -0.00001, 0.0 ]
+																												angles = [ -0.000002, 0.000121, -0.000005 ]
+																												do_not_discard = true
+																											},
+																										]
+																										origin = [ 0.533236, 0.000002, 0.000001 ]
+																										angles = [ -0.270523, -24.810534, 0.059498 ]
+																										do_not_discard = true
+																									},
+																								]
+																								origin = [ -0.00001, 0.0, -0.0 ]
+																								angles = [ -0.000001, 0.000013, -0.000006 ]
+																								do_not_discard = true
+																							},
+																						]
+																						origin = [ 0.532725, 0.000002, -0.000001 ]
+																						angles = [ -0.088829, -7.756495, 0.006022 ]
+																						do_not_discard = true
+																					},
+																				]
+																				origin = [ -0.000002, 0.0, 0.0 ]
+																				angles = [ -0.000002, 0.0, -0.000004 ]
+																				do_not_discard = true
+																			},
+																		]
+																		origin = [ 0.532718, 0.000001, 0.0 ]
+																		angles = [ 0.933296, -2.718081, -0.284372 ]
+																		do_not_discard = true
+																	},
+																]
+																origin = [ 0.000003, -0.000009, 0.000002 ]
+																angles = [ 0.000001, 0.000001, -0.000006 ]
+																do_not_discard = true
+															},
+														]
+														origin = [ -2.581701, 6.638905, -0.669627 ]
+														angles = [ -1.003423, 3.176926, 1.031084 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 6.843826, 2.515441, -1.521461 ]
+												angles = [ 0.004931, 89.993546, 89.989906 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ -1.305519, 4.56052, 12.272293 ]
+										angles = [ 26.703396, 2.677696, 0.758077 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_thumb_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_thumb_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_thumb_2_r"
+														origin = [ 1.1875, -0.000048, -0.000024 ]
+														angles = [ -0.000007, 25.915401, 0.000006 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.609376, -0.000031, -0.000015 ]
+												angles = [ -0.000005, 12.066068, -0.00002 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 1.230467, 0.348876, 1.249022 ]
+										angles = [ -3.168297, 41.294415, -115.463997 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_index_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_index_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_index_2_r"
+														origin = [ 1.018557, 0.000002, 0.000001 ]
+														angles = [ -0.224483, 29.066845, 0.432325 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.431641, -0.000006, 0.000002 ]
+												angles = [ -0.173478, 22.82313, 0.459503 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 4.068593, 0.143187, 0.892415 ]
+										angles = [ 23.594093, 7.838686, 7.612994 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_middle_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_middle_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_middle_2_r"
+														origin = [ 1.038085, -0.000006, -0.000006 ]
+														angles = [ -1.3726, 44.125572, 2.043132 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.690432, 0.000003, -0.000005 ]
+												angles = [ -2.024946, 65.885216, 1.387607 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.939286, 0.020624, -0.014989 ]
+										angles = [ 20.639122, 66.491516, 33.009403 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_ring_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_ring_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_ring_2_r"
+														origin = [ 1.005858, -0.000003, -0.000007 ]
+														angles = [ -0.81393, 32.041435, 4.661695 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.582034, 0.000002, -0.000008 ]
+												angles = [ -3.66765, 73.119278, 2.985473 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.582015, 0.056831, -0.735429 ]
+										angles = [ 15.021172, 69.11705, 33.138741 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_pinky_0_r"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_pinky_1_r"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_pinky_2_r"
+														origin = [ 0.682123, -0.000001, -0.000004 ]
+														angles = [ -0.402094, 38.429867, 3.212611 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.245119, 0.000005, -0.000008 ]
+												angles = [ -0.651589, 42.845314, 3.177245 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.126524, 0.227894, -1.440086 ]
+										angles = [ 1.30156, 84.088936, 42.442043 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 10.296001, -0.000006, -0.000009 ]
+								angles = [ -1.217264, 7.493227, 116.837074 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "arm_lower_r_twist"
+								origin = [ 0.000001, -0.000001, -0.000003 ]
+								angles = [ -0.000003, -0.000015, 27.496372 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ -2.052181, -4.766829, -16.15959 ]
+						angles = [ -33.930305, 0.082482, -117.790512 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "arm_lower_l"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "hand_l"
+								children = 
+								[
+									{
+										_class = "Bone"
+										name = "finger_thumb_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_thumb_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_thumb_2_l"
+														origin = [ 1.18848, -0.000093, -0.000022 ]
+														angles = [ 0.000012, 34.012058, -0.000002 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.610355, -0.000069, -0.000015 ]
+												angles = [ -0.000005, 20.160345, 0.000029 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 1.230473, 0.348879, -1.249016 ]
+										angles = [ 10.164608, 40.319736, 76.322685 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_index_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_index_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_index_2_l"
+														origin = [ 1.017581, -0.000008, -0.000048 ]
+														angles = [ 0.481505, 81.584579, -0.080997 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.431641, -0.000029, -0.000018 ]
+												angles = [ 0.472802, 75.338646, -0.134858 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 4.068598, 0.14317, -0.892434 ]
+										angles = [ -8.463893, 60.509884, -23.308908 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_middle_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_middle_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_middle_2_l"
+														origin = [ 1.038092, -0.00001, -0.000043 ]
+														angles = [ 1.839867, 58.69072, -1.627221 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.689451, -0.000019, -0.000036 ]
+												angles = [ 2.31722, 80.451103, -0.832466 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.939288, 0.020601, 0.014967 ]
+										angles = [ 0.578628, 71.306313, -24.731243 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_ring_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_ring_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_ring_2_l"
+														origin = [ 1.005857, -0.000015, -0.000046 ]
+														angles = [ 1.945897, 46.568829, -4.307201 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.582027, -0.000013, -0.000035 ]
+												angles = [ 4.303468, 87.705185, -1.96616 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.582012, 0.056811, 0.735405 ]
+										angles = [ 3.842172, 77.320251, -24.464096 ]
+										do_not_discard = true
+									},
+									{
+										_class = "Bone"
+										name = "finger_pinky_0_l"
+										children = 
+										[
+											{
+												_class = "Bone"
+												name = "finger_pinky_1_l"
+												children = 
+												[
+													{
+														_class = "Bone"
+														name = "finger_pinky_2_l"
+														origin = [ 0.682617, -0.000019, -0.00004 ]
+														angles = [ 1.195039, 52.966492, -3.008278 ]
+														do_not_discard = true
+													},
+												]
+												origin = [ 1.246099, -0.000002, -0.000038 ]
+												angles = [ 1.430086, 57.384193, -2.911293 ]
+												do_not_discard = true
+											},
+										]
+										origin = [ 3.126526, 0.227877, 1.440065 ]
+										angles = [ 9.017344, 74.946564, -35.63073 ]
+										do_not_discard = true
+									},
+								]
+								origin = [ 10.296007, -0.000004, -0.000002 ]
+								angles = [ -25.17581, 6.838543, -46.532871 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "arm_lower_l_twist"
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ -0.000024, -0.000024, 46.239407 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 16.743509, 5.391206, -16.5438 ]
+						angles = [ -41.074196, -43.06974, -61.613037 ]
+						do_not_discard = true
+					},
+				]
+			},
+			{
+				_class = "Softbody"
+				children = 
+				[
+					{
+						_class = "ClothShapeSDF"
+						name = "weapon_hand_r_clothSDF"
+						parent_bone = "weapon_hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						filename = ""
+						use_render_mesh_list = true
+						renderMeshList = [  ]
+						supplementalBoneList = [  ]
+						res_width = 16
+						apply_fast_sweep = true
+						convexify = false
+						algo = 3
+						sample_rays = 32
+						add_radius = 0.0
+						blur_radius = 0
+						deflate_after_blur = 0.0
+						margin = 0.0
+					},
+					{
+						_class = "ClothShapeSDF"
+						name = "v_weapon_hand_clip_sdf"
+						disabled = true
+						parent_bone = "v_weapon_ak47_clip"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						filename = ""
+						use_render_mesh_list = true
+						renderMeshList = [  ]
+						supplementalBoneList = [  ]
+						res_width = 16
+						apply_fast_sweep = true
+						convexify = false
+						algo = 3
+						sample_rays = 32
+						add_radius = 0.0
+						blur_radius = 0
+						deflate_after_blur = 0.0
+						margin = 0.0
+					},
+					{
+						_class = "ClothShapeBox"
+						name = "weapon_hand_r_clothBox"
+						disabled = true
+						parent_bone = "weapon_hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						dimensions = [ 4.3, 0.5, 3.5 ]
+						origin = [ 2.72, 0.044, 2.72 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "ClothShapeSphere"
+						name = "hand_r_clothSphere"
+						parent_bone = "hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius = 1.0
+						center = [ 0.56, -0.08, 0.2 ]
+					},
+					{
+						_class = "ClothShapeSphere"
+						name = "hand_l"
+						parent_bone = "hand_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius = 1.0
+						center = [ 0.03, -0.24, 0.0 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "hand_r_clothCapsule"
+						parent_bone = "hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.87
+						radius1 = 0.89
+						point0 = [ 3.70586, -0.243633, 1.09048 ]
+						point1 = [ 1.18061, -0.146597, 1.17896 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "hand_r_clothCapsule1"
+						parent_bone = "hand_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 1.3
+						radius1 = 1.44
+						point0 = [ 3.05581, 0.823614, -0.918165 ]
+						point1 = [ 3.53346, 1.21782, -0.054371 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_index_2_r_clothCapsule"
+						parent_bone = "finger_index_2_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.39
+						radius1 = 0.46
+						point0 = [ 0.996667, 0.038172, -0.053089 ]
+						point1 = [ 0.074961, 0.029243, -0.009911 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "arm_lower_r_clothCapsule"
+						parent_bone = "arm_lower_r"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 1.28
+						radius1 = 2.35
+						point0 = [ 10.2956, 0.167407, -0.444911 ]
+						point1 = [ 0.0, 0.380402, 0.370009 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "arm_lower_l_clothCapsule"
+						parent_bone = "arm_lower_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 1.29
+						radius1 = 2.45
+						point0 = [ 10.2956, 0.017379, 0.209882 ]
+						point1 = [ 0.0, 0.225578, 0.16361 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_index_0_l_clothCapsule"
+						parent_bone = "finger_index_0_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.62
+						radius1 = 0.78
+						point0 = [ 1.17167, 0.02747, 0.018327 ]
+						point1 = [ -0.338466, -0.18708, -0.199032 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "hand_l_clothCapsule"
+						parent_bone = "hand_l"
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.69
+						radius1 = 1.16
+						point0 = [ 3.61801, -0.299227, -1.23389 ]
+						point1 = [ 0.968636, -0.078829, -0.742451 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_0_l_clothCapsule"
+						parent_bone = "finger_thumb_0_l"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.94
+						radius1 = 1.1
+						point0 = [ 0.712121, 0.004413, -0.015954 ]
+						point1 = [ -0.80303, 0.658781, -0.145162 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_1_l_clothCapsule"
+						parent_bone = "finger_thumb_1_l"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.52
+						radius1 = 0.87
+						point0 = [ 2.25358, -0.075786, 0.0 ]
+						point1 = [ -1.0, 0.0, 0.0 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_0_r_clothCapsule"
+						parent_bone = "finger_thumb_0_r"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.87
+						radius1 = 1.0
+						point0 = [ 1.33836, -0.032073, 0.044855 ]
+						point1 = [ -0.121679, 0.055796, -0.032997 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_2_r_clothCapsule"
+						parent_bone = "finger_thumb_2_r"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.6
+						radius1 = 0.6
+						point0 = [ -0.393939, 0.0, 0.0 ]
+						point1 = [ 0.916694, -0.07776, -0.040556 ]
+					},
+					{
+						_class = "ClothShapeCapsule"
+						name = "finger_thumb_1_r_clothCapsule"
+						parent_bone = "finger_thumb_1_r"
+						cloth_collision_layer0 = false
+						cloth_collision_layer1 = false
+						cloth_collision_layer2 = false
+						cloth_collision_layer3 = true
+						cloth_collision_priority = 0
+						vertex_map = ""
+						inverted_collision = false
+						planarize = false
+						bounciness = 0.0
+						radius0 = 0.7
+						radius1 = 0.81
+						point0 = [ 0.924242, 0.0, 0.0 ]
+						point1 = [ -0.333333, 0.0, 0.0 ]
+					},
+					{
+						_class = "ClothNode"
+						name = "weapon_hand_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "weapon_hand_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = -1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "v_weapon_ak47_clip_clothNode"
+						disabled = true
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "v_weapon_ak47_clip"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "hand_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "hand_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_index_2_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_index_2_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "arm_lower_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "arm_lower_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "arm_lower_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "arm_lower_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_index_0_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_index_0_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "hand_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "hand_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_0_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_0_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_1_l_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_1_l"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_0_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_0_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_2_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_2_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+					{
+						_class = "ClothNode"
+						name = "finger_thumb_1_r_clothNode"
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ 0.0, 0.0, 0.0 ]
+						cloth_node_root_bone = "finger_thumb_1_r"
+						has_stray_radius = false
+						has_world_collision = false
+						cloth_collision_layer0 = true
+						cloth_collision_layer1 = true
+						cloth_collision_layer2 = true
+						cloth_collision_layer3 = true
+						transform_alignment = 0
+						node_base_y1 = ""
+						node_base_x1 = ""
+						node_base_y0 = ""
+						node_base_x0 = ""
+						lock_translation = false
+						gravity_z = 1.0
+						goal_strength = 0.6
+						goal_damping = 0.3
+						mass = 1.0
+						friction = 0.0
+						stray_radius = 0.0
+						stray_radius_relaxation_factor = 1.0
+						collision_radius = 0.0
+						is_static_node = true
+						allow_rotation = false
+						super_damping = 0.0
+					},
+				]
+				stiffness_on_ragdoll = 0.0
+				motion_smooth_cdt = 0.0
+				cloth_sleep_enabled = false
+				cloth_immovable_hint = false
+				cloth_per_bone_scale_enabled = false
+				cloth_enable_empty_model = false
+				cloth_keychain_motion = false
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = "weapons/models_custom/mgs/negev/negev_custom.vanmgrph"
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

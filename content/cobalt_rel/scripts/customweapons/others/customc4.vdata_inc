@@ -1,0 +1,111 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	custom_c4 = 
+	{
+		_editor = 
+        {
+            folder_name = "Others"
+        }
+		m_bAnimgraphed = true
+		m_nKillAward = 300
+		m_nDamage = 50
+		m_iMaxClip1 = 0
+		m_iMaxClip2 = 0
+		m_iDefaultClip1 = 1
+		m_iDefaultClip2 = 1
+		m_bAllowFlipping = false
+		m_bBuiltRightHanded = false
+		m_bIsFullAuto = false
+		m_nNumBullets = 1
+		m_bMeleeWeapon = false
+		m_iWeight = 0
+		m_iRumbleEffect = -1
+		m_nPrimaryReserveAmmoMax = 0
+		m_nSecondaryReserveAmmoMax = 0
+		m_flInaccuracyJumpInitial = 0.0
+		m_flInaccuracyJumpApex = 0.0
+		m_flInaccuracyReload = 0.0
+		m_nSpreadSeed = 0
+		m_flRecoveryTimeCrouch = 1.0
+		m_flRecoveryTimeStand = 1.0
+		m_flRecoveryTimeCrouchFinal = -1.0
+		m_flRecoveryTimeStandFinal = -1.0
+		m_nRecoveryTransitionStartBullet = 0
+		m_nRecoveryTransitionEndBullet = 0
+		m_flTimeToIdleAfterFire = 2.0
+		m_flIdleInterval = 20.0
+		m_flHeadshotMultiplier = 4.0
+		m_flArmorRatio = 1.0
+		m_flPenetration = 1.0
+		m_flFlinchVelocityModifierLarge = 1.0
+		m_flFlinchVelocityModifierSmall = 1.0
+		m_flRange = 4096.0
+		m_flRangeModifier = 0.99
+		m_eSilencerType = "WEAPONSILENCER_NONE"
+		m_nCrosshairMinDistance = 6
+		m_nCrosshairDeltaDistance = 3
+		m_flAttackMovespeedFactor = 1.0
+		m_bUnzoomsAfterShot = false
+		m_bHideViewModelWhenZoomed = false
+		m_nZoomLevels = 0
+		m_nZoomFOV1 = 90
+		m_nZoomFOV2 = 90
+		m_flZoomTime0 = 0.0
+		m_flZoomTime1 = 0.0
+		m_flZoomTime2 = 0.0
+		m_flHeatPerShot = 0.25
+		m_flInaccuracyPitchShift = 0.0
+		m_flInaccuracyAltSoundThreshold = 0.0
+		m_flBotAudibleRange = 2000.0
+		m_bHasBurstMode = false
+		m_bIsRevolver = false
+		m_bCannotShootUnderwater = false
+		m_flCycleTime = [ 0.15, 0.3 ]
+		m_flMaxSpeed = [ 250.0, 250.0 ]
+		m_flSpread = [ 0.0, 0.0 ]
+		m_flInaccuracyCrouch = [ 0.0, 0.0 ]
+		m_flInaccuracyStand = [ 0.0, 0.0 ]
+		m_flInaccuracyJump = [ 0.0, 0.0 ]
+		m_flInaccuracyLand = [ 0.0, 0.0 ]
+		m_flInaccuracyLadder = [ 0.0, 0.0 ]
+		m_flInaccuracyFire = [ 0.0, 0.0 ]
+		m_flInaccuracyMove = [ 0.0, 0.0 ]
+		m_flRecoilAngle = [ 0.0, 0.0 ]
+		m_flRecoilAngleVariance = [ 0.0, 0.0 ]
+		m_flRecoilMagnitude = [ 0.0, 0.0 ]
+		m_flRecoilMagnitudeVariance = [ 0.0, 0.0 ]
+		m_nTracerFrequency = 0
+		m_bAutoSwitchFrom = true
+		m_bAutoSwitchTo = true
+		_base = "c4"
+		taxonomy = 
+		{
+			weapon = true
+			self_damage_on_miss__inflicts_damage = true
+		}
+		_class = "weapon_c4"
+		m_szName = "weapon_c4"
+		m_GearSlot = "GEAR_SLOT_C4"
+		m_GearSlotPosition = 0
+		m_szWorldModel = resource_name:"weapons/models_custom/others/custom_c4/c4_custom.vmdl"
+		m_szPlayerModel = resource_name:"weapons/models_custom/others/custom_c4/c4_custom.vmdl"
+		m_WeaponAnimgraph = resource_name:"weapons/models_custom/others/custom_c4/c4_custom.vanmgrph"
+		m_szWorldDroppedModel = resource_name:"weapons/models_custom/others/custom_c4/c4_custom.vmdl"
+		m_szViewModel = resource_name:"weapons/models_custom/others/custom_c4/c4_custom.vmdl"
+		m_WeaponType = "WEAPONTYPE_C4"
+		m_aShootSounds = 
+		{
+			WEAPON_SOUND_EMPTY = soundevent:"c4.click"
+			WEAPON_SOUND_SINGLE = soundevent:"c4.plant"
+			WEAPON_SOUND_SPECIAL1 = soundevent:"c4.disarmstart"
+			WEAPON_SOUND_SPECIAL2 = soundevent:"c4.disarmfinish"
+			WEAPON_SOUND_SPECIAL3 = soundevent:"C4.ExplodeWarning"
+			WEAPON_SOUND_NEARLYEMPTY = soundevent:"Default.nearlyempty"
+		}
+		m_szAnimExtension = "c4"
+		m_nPrice = 0
+		m_nRecoilSeed = 39693
+		m_DefaultLoadoutPosition = "LOADOUT_POSITION_C4"
+	}
+}

@@ -1,0 +1,105 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	vdata_template_name = "CS2 Animgraphed Weapons - VDATA version"
+	vdata_template_description = "CS2 Animgraphed weapons. Summon the custom weapons with the ent_create customweaponname command."
+	_include = 
+	[
+	    ////////////////////////////////////////////////////////////////////
+		// Base - update every major game update!
+		////////////////////////////////////////////////////////////////////
+		resource_name:"scripts/stockweapons.vdata_inc",
+		////////////////////////////////////////////////////////////////////
+		// Rifles
+		////////////////////////////////////////////////////////////////////
+		resource_name:"scripts/customweapons/rifles/customak47.vdata_inc", //AK-47
+		resource_name:"scripts/customweapons/rifles/customm4a1s.vdata_inc", //M4A1-S
+		resource_name:"scripts/customweapons/rifles/customm4a4.vdata_inc", //M4A4
+		resource_name:"scripts/customweapons/rifles/customfamas.vdata_inc", //Famas
+		resource_name:"scripts/customweapons/rifles/customgalilar.vdata_inc", //Galil AR
+		resource_name:"scripts/customweapons/rifles/customaug.vdata_inc", //AUG
+		resource_name:"scripts/customweapons/rifles/customsg556.vdata_inc", //SG-553
+		////////////////////////////////////////////////////////////////////
+		// Sniper Rifles
+		////////////////////////////////////////////////////////////////////
+		resource_name:"scripts/customweapons/snipers/customawp.vdata_inc", //AWP
+		resource_name:"scripts/customweapons/snipers/customssg08.vdata_inc", //SSG-08
+		resource_name:"scripts/customweapons/snipers/customscar20.vdata_inc", //SCAR-20
+		resource_name:"scripts/customweapons/snipers/customg3sg1.vdata_inc", //G3SG1
+		/////////////////////////////////////////////////////////////////////
+		// Pistols
+		/////////////////////////////////////////////////////////////////////		
+		resource_name:"scripts/customweapons/pistols/customdeagle.vdata_inc",	   //Desert Eagle
+		resource_name:"scripts/customweapons/pistols/customuspsilencer.vdata_inc", //USP-S
+		resource_name:"scripts/customweapons/pistols/customfiveseven.vdata_inc", //Five-Seven
+		resource_name:"scripts/customweapons/pistols/customglock18.vdata_inc",  //GLock-18
+		resource_name:"scripts/customweapons/pistols/customp250.vdata_inc",     //P250
+		resource_name:"scripts/customweapons/pistols/customtec9.vdata_inc",     //Tec-9
+		resource_name:"scripts/customweapons/pistols/customhkp2000.vdata_inc",  //P2000
+		resource_name:"scripts/customweapons/pistols/customelite.vdata_inc",    //Dual Elites
+		resource_name:"scripts/customweapons/pistols/customrevolver.vdata_inc", //Revolver R8
+		resource_name:"scripts/customweapons/pistols/customcz75.vdata_inc",    //CZ-75
+		resource_name:"scripts/customweapons/pistols/customtaser.vdata_inc",   //Zeus x27
+		////////////////////////////////////////////////////////////////////
+		// Sub-machine guns (SMG)
+		////////////////////////////////////////////////////////////////////
+		resource_name:"scripts/customweapons/smgs/custombizon.vdata_inc", //PP-Bizon
+		resource_name:"scripts/customweapons/smgs/custommac10.vdata_inc", //Mac-10
+		resource_name:"scripts/customweapons/smgs/custommp5sd.vdata_inc", //MP5-SD
+		resource_name:"scripts/customweapons/smgs/custommp7.vdata_inc",   //MP7
+		resource_name:"scripts/customweapons/smgs/custommp9.vdata_inc",   //MP9
+		resource_name:"scripts/customweapons/smgs/customp90.vdata_inc",   //P90
+		resource_name:"scripts/customweapons/smgs/customump45.vdata_inc", //UMP-45
+		////////////////////////////////////////////////////////////////////
+		// Shotguns
+		////////////////////////////////////////////////////////////////////
+		resource_name:"scripts/customweapons/shotguns/custommag7.vdata_inc", //MAG-7
+		resource_name:"scripts/customweapons/shotguns/customnova.vdata_inc", //Nova
+		resource_name:"scripts/customweapons/shotguns/customsawedoff.vdata_inc", //Sawed-Off
+		resource_name:"scripts/customweapons/shotguns/customxm1014.vdata_inc", //XM-1014
+		//////////////////////////////////////////////////////////////////////////
+		// Grenades
+		//////////////////////////////////////////////////////////////////////////
+        resource_name:"scripts/customweapons/grenades/customdecoy.vdata_inc",     //Decoy Grenade
+		resource_name:"scripts/customweapons/grenades/customhegrenade.vdata_inc", //HE Grenade
+		resource_name:"scripts/customweapons/grenades/customflashbang.vdata_inc", //Flashbang
+		resource_name:"scripts/customweapons/grenades/customincendiary.vdata_inc", //Incendiary Grenade
+		resource_name:"scripts/customweapons/grenades/custommolotov.vdata_inc",    //Molotov
+		resource_name:"scripts/customweapons/grenades/customsmoke.vdata_inc",      //Smoke Grenade
+		//////////////////////////////////////////////////////////////////////////
+		// Machineguns (MGs)
+		//////////////////////////////////////////////////////////////////////////
+		resource_name:"scripts/customweapons/mgs/customm249.vdata_inc",            //M249
+		resource_name:"scripts/customweapons/mgs/customnegev.vdata_inc",           //Negev
+		//////////////////////////////////////////////////////////////////////////
+		// Knives
+		//////////////////////////////////////////////////////////////////////////
+		resource_name:"scripts/customweapons/knives/cssknife.vdata_inc",           //Classic Knife
+		resource_name:"scripts/customweapons/knives/knifect.vdata_inc",            //Default Knife (CT)
+		resource_name:"scripts/customweapons/knives/knifet.vdata_inc",             //Default Knife (T)
+		resource_name:"scripts/customweapons/knives/knife_outdoor.vdata_inc",      //Nomad Knife
+		resource_name:"scripts/customweapons/knives/knife_skeleton.vdata_inc",     //Skeleton Knife
+		resource_name:"scripts/customweapons/knives/knife_stiletto.vdata_inc",     //Stiletto Knife
+		resource_name:"scripts/customweapons/knives/knife_canis.vdata_inc",        //Survival Knife
+		resource_name:"scripts/customweapons/knives/knife_cord.vdata_inc",         //Paracord Knife
+		resource_name:"scripts/customweapons/knives/knife_navaja.vdata_inc",         //Navaja Knife
+		resource_name:"scripts/customweapons/knives/knife_talon.vdata_inc",         //Talon Knife
+		resource_name:"scripts/customweapons/knives/knife_ursus.vdata_inc",         //Ursus Knife
+		resource_name:"scripts/customweapons/knives/knife_bayonet.vdata_inc",         //Bayonet Knife
+		resource_name:"scripts/customweapons/knives/knife_bowie.vdata_inc",         //Bowie Knife
+		resource_name:"scripts/customweapons/knives/knife_butterfly.vdata_inc",         //Butterfly Knife
+		resource_name:"scripts/customweapons/knives/knife_falchion.vdata_inc",         //Falchion Knife
+		resource_name:"scripts/customweapons/knives/knife_flip.vdata_inc",            //Flip Knife
+		resource_name:"scripts/customweapons/knives/knife_gut.vdata_inc",            //Gut Knife
+		resource_name:"scripts/customweapons/knives/knife_tactical.vdata_inc",            //Tactical Knife
+		resource_name:"scripts/customweapons/knives/knife_karambit.vdata_inc",            //Karambit
+		resource_name:"scripts/customweapons/knives/knife_m9.vdata_inc",              //M9 Bayonet
+		resource_name:"scripts/customweapons/knives/knife_kukri.vdata_inc",              //Kukri Knife
+		resource_name:"scripts/customweapons/knives/knife_push.vdata_inc",              //Shadow Daggers
+		//////////////////////////////////////////////////////////////////////////
+		// Others
+		//////////////////////////////////////////////////////////////////////////	
+		resource_name:"scripts/customweapons/others/customc4.vdata_inc",             //C4
+		resource_name:"scripts/customweapons/others/customhealthshot.vdata_inc",     //Healthshot
+	]
+}

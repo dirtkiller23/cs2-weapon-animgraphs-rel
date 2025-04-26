@@ -1,0 +1,115 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:generic:version{7412167c-06e9-4698-aff2-e63eb59037e7} -->
+{
+	generic_data_type = "CBasePlayerWeaponVData"
+	custom_deagle = 
+	{
+		_editor = 
+        {
+            folder_name = "Pistols"
+        }
+        m_bAnimgraphed = true
+		m_nKillAward = 300
+		m_nDamage = 53
+		m_iMaxClip1 = 7
+		m_iMaxClip2 = 0
+		m_iDefaultClip1 = -1
+		m_iDefaultClip2 = -1
+		m_bAllowFlipping = true
+		m_bBuiltRightHanded = true
+		m_bIsFullAuto = false
+		m_nNumBullets = 1
+		m_bMeleeWeapon = false
+		m_iWeight = 7
+		m_iRumbleEffect = 2
+		m_nPrimaryReserveAmmoMax = 35
+		m_nSecondaryReserveAmmoMax = 0
+		m_flInaccuracyJumpInitial = 0.54882
+		m_flInaccuracyJumpApex = 0.33155
+		m_flInaccuracyReload = 0.0
+		m_nSpreadSeed = 0
+		m_flRecoveryTimeCrouch = 0.449927
+		m_flRecoveryTimeStand = 0.8112
+		m_flRecoveryTimeCrouchFinal = 0.449927
+		m_flRecoveryTimeStandFinal = 0.8112
+		m_nRecoveryTransitionStartBullet = 3
+		m_nRecoveryTransitionEndBullet = 10
+		m_flTimeToIdleAfterFire = 2.0
+		m_flIdleInterval = 20.0
+		m_flHeadshotMultiplier = 3.9
+		m_flArmorRatio = 1.864
+		m_flPenetration = 2.0
+		m_flFlinchVelocityModifierLarge = 0.4
+		m_flFlinchVelocityModifierSmall = 0.55
+		m_flRange = 4096.0
+		m_flRangeModifier = 0.85
+		m_eSilencerType = "WEAPONSILENCER_NONE"
+		m_nCrosshairMinDistance = 8
+		m_nCrosshairDeltaDistance = 3
+		m_flAttackMovespeedFactor = 1.0
+		m_bUnzoomsAfterShot = false
+		m_bHideViewModelWhenZoomed = false
+		m_nZoomLevels = 0
+		m_nZoomFOV1 = 90
+		m_nZoomFOV2 = 90
+		m_flZoomTime0 = 0.0
+		m_flZoomTime1 = 0.0
+		m_flZoomTime2 = 0.0
+		m_flHeatPerShot = 0.3
+		m_flInaccuracyPitchShift = 0.0
+		m_flInaccuracyAltSoundThreshold = 0.0
+		m_flBotAudibleRange = 2000.0
+		m_bHasBurstMode = false
+		m_bIsRevolver = false
+		m_bCannotShootUnderwater = false
+		m_flCycleTime = 0.225
+		m_flMaxSpeed = [ 230.0, 230.0 ]
+		m_flSpread = [ 0.002, 0.002 ]
+		m_flInaccuracyCrouch = [ 0.00218, 0.00218 ]
+		m_flInaccuracyStand = [ 0.0042, 0.0042 ]
+		m_flInaccuracyJump = [ 0.04055, 0.37155 ]
+		m_flInaccuracyLand = [ 0.000043, 0.00073 ]
+		m_flInaccuracyLadder = [ 0.152, 0.152 ]
+		m_flInaccuracyFire = [ 0.07223, 0.07223 ]
+		m_flInaccuracyMove = [ 0.0481, 0.0481 ]
+		m_flRecoilAngle = 0.0
+		m_flRecoilAngleVariance = [ 60.0, 60.0 ]
+		m_flRecoilMagnitude = [ 48.200001, 48.200001 ]
+		m_flRecoilMagnitudeVariance = [ 18.0, 18.0 ]
+		m_nTracerFrequency = 1
+		m_bAutoSwitchFrom = true
+		m_bAutoSwitchTo = true
+		_base = "weapon_deagle_prefab"
+		taxonomy = 
+		{
+			weapon = true
+			self_damage_on_miss__inflicts_damage = true
+			secondary = true
+			pistol = true
+		}
+		_class = "weapon_deagle"
+		m_GearSlot = "GEAR_SLOT_PISTOL"
+		m_GearSlotPosition = 0
+		m_WeaponType = "WEAPONTYPE_PISTOL"
+		m_szName = "weapon_deagle"
+		m_szWorldModel = resource_name:"weapons/models_custom/pistols/deagle/deagle_custom.vmdl"
+		m_szPlayerModel = resource_name:"weapons/models_custom/pistols/deagle/deagle_custom.vmdl"
+		m_szWorldDroppedModel = resource_name:"weapons/models_custom/pistols/deagle/deagle_custom.vmdl"
+		m_szViewModel = resource_name:"weapons/models_custom/pistols/deagle/deagle_custom.vmdl"
+		m_WeaponAnimgraph = resource_name:"weapons/models_custom/pistols/deagle/deagle_custom.vanmgrph"
+		m_szTracerParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_tracers_pistol.vpcf"
+		m_szHeatEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_smoke.vpcf"
+		m_szEjectBrassEffect = resource_name:"particles/weapons/cs_weapon_fx/weapon_shell_casing_9mm.vpcf"
+		m_szMuzzleFlashParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_pistol.vpcf"
+		m_szMuzzleFlashThirdPersonParticle = resource_name:"particles/weapons/cs_weapon_fx/weapon_muzzle_flash_pistol.vpcf"
+		m_aShootSounds = 
+		{
+			WEAPON_SOUND_SINGLE = soundevent:"Weapon_DEagle.Single"
+			WEAPON_SOUND_NEARLYEMPTY = soundevent:"Default.nearlyempty"
+		}
+		m_nPrimaryAmmoType = "BULLET_PLAYER_50AE"
+		m_szAnimExtension = "pistol"
+		m_nPrice = 700
+		m_nRecoilSeed = 1454
+		m_DefaultLoadoutPosition = "LOADOUT_POSITION_SECONDARY4"
+	}
+}
