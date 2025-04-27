@@ -1,0 +1,936 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:animgraph19:version{0adb35b7-2585-4302-8d05-e2825b4518ac} -->
+{
+	_class = "CAnimationGraph"
+	m_nodeManager = 
+	{
+		_class = "CAnimNodeManager"
+		m_nodes = 
+		[
+			{
+				key = 
+				{
+					m_id = 443350975
+				}
+				value = 
+				{
+					_class = "CRootAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 2349.385986, 216.540787 ]
+					m_nNodeID = 
+					{
+						m_id = 443350975
+					}
+					m_networkMode = "ServerAuthoritative"
+					m_inputConnection = 
+					{
+						m_nodeID = 
+						{
+							m_id = 2104322777
+						}
+						m_outputID = 
+						{
+							m_id = 1771016414
+						}
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 2104322777
+				}
+				value = 
+				{
+					_class = "CSubGraphAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 2133.533203, 185.467987 ]
+					m_nNodeID = 
+					{
+						m_id = 2104322777
+					}
+					m_networkMode = "ServerAuthoritative"
+					m_inputNodeID = 
+					{
+						m_id = 385947979
+					}
+					m_outputNodeID = 
+					{
+						m_id = 1808137218
+					}
+					m_inputConnectionMap = [  ]
+					m_subGraphFilename = "characters/models/shared/animgraphs/ui.vsubgrph"
+					m_animNameMap = 
+					{
+					}
+				}
+			},
+		]
+	}
+	m_componentManager = 
+	{
+		_class = "CAnimComponentManager"
+		m_components = 
+		[
+			{
+				_class = "CActionComponent"
+				m_group = ""
+				m_id = 
+				{
+					m_id = 1750912944
+				}
+				m_bStartEnabled = true
+				m_nPriority = 100
+				m_networkMode = "ServerAuthoritative"
+				m_actions = 
+				[
+					{
+						_class = "CSetParameterAction"
+						m_param = 
+						{
+							m_id = 1053481154
+						}
+						m_value = 
+						{
+							m_nType = 1
+							m_data = true
+						}
+					},
+				]
+				m_sName = "Action Component"
+			},
+			{
+				_class = "CMovementComponent"
+				m_group = ""
+				m_id = 
+				{
+					m_id = 1537377873
+				}
+				m_bStartEnabled = true
+				m_nPriority = 100
+				m_networkMode = "ClientSimulate"
+				m_moveModes = [  ]
+				m_motors = 
+				[
+					{
+						_class = "CPlayerInputAnimMotor"
+						m_name = "Player Motor"
+						m_bDefault = true
+						m_sampleTimes = [ 1.0 ]
+						m_bUseAcceleration = false
+						m_flSpringConstant = 10.0
+						m_flAnticipationDistance = 36.0
+						m_anticipationPosParam = 
+						{
+							m_id = 4294967295
+						}
+						m_anticipationHeadingParam = 
+						{
+							m_id = 4294967295
+						}
+					},
+				]
+				m_bNetworkPath = false
+				m_eDefaultFacingMode = "FacingMode_Manual"
+				m_facingDamping = 
+				{
+					_class = "CAnimInputDamping"
+					m_speedFunction = "NoDamping"
+					m_fSpeedScale = 1.0
+				}
+				m_bNetworkFacing = false
+				m_paramIDs = 
+				[
+					{
+						m_id = 3437219945
+					},
+					{
+						m_id = 3474114456
+					},
+					{
+						m_id = 985624099
+					},
+					{
+						m_id = 3510245628
+					},
+					{
+						m_id = 2989359595
+					},
+					{
+						m_id = 385391878
+					},
+					{
+						m_id = 3587290693
+					},
+					{
+						m_id = 3854007229
+					},
+					{
+						m_id = 4253172169
+					},
+					{
+						m_id = 3051949375
+					},
+					{
+						m_id = 3300783816
+					},
+					{
+						m_id = 569597549
+					},
+					{
+						m_id = 1212197676
+					},
+					{
+						m_id = 1405095391
+					},
+					{
+						m_id = 3421745068
+					},
+					{
+						m_id = 2765168161
+					},
+					{
+						m_id = 753861286
+					},
+					{
+						m_id = 2039382558
+					},
+					{
+						m_id = 3353846971
+					},
+					{
+						m_id = 451217413
+					},
+					{
+						m_id = 3601731327
+					},
+					{
+						m_id = 2186190582
+					},
+					{
+						m_id = 3041209358
+					},
+					{
+						m_id = 2606291147
+					},
+					{
+						m_id = 2199313923
+					},
+					{
+						m_id = 2300453641
+					},
+					{
+						m_id = 3700591820
+					},
+					{
+						m_id = 803164248
+					},
+					{
+						m_id = 680745469
+					},
+					{
+						m_id = 4131754867
+					},
+				]
+			},
+		]
+	}
+	m_localParameters = 
+	[
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Strafe Speed"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 3854007229
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Forward Speed"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 3587290693
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Acceleration"
+			m_group = "Movement Component/Acceleration"
+			m_id = 
+			{
+				m_id = 2039382558
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Look-Relative Move Heading"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 4253172169
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CBoolAnimParameter"
+			m_name = "Goal Has Changed"
+			m_group = "Movement Component/Path"
+			m_id = 
+			{
+				m_id = 753861286
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_bDefaultValue = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Top Move Speed"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 385391878
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Root Motion Velocity Vector"
+			m_group = "Movement Component/Root Motion"
+			m_id = 
+			{
+				m_id = 3041209358
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Turn Speed"
+			m_group = "Movement Component"
+			m_id = 
+			{
+				m_id = 803164248
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Move Heading"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 985624099
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Vertical Speed"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 680745469
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Move Velocity"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 3474114456
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Boundary Radius"
+			m_group = "Movement Component"
+			m_id = 
+			{
+				m_id = 3700591820
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Acceleration Forward"
+			m_group = "Movement Component/Acceleration"
+			m_id = 
+			{
+				m_id = 3601731327
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Facing Heading"
+			m_group = "Movement Component/Facing"
+			m_id = 
+			{
+				m_id = 3300783816
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Move Speed"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 3510245628
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Waypoint Heading"
+			m_group = "Movement Component/Path"
+			m_id = 
+			{
+				m_id = 1405095391
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Acceleration Heading"
+			m_group = "Movement Component/Acceleration"
+			m_id = 
+			{
+				m_id = 3353846971
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Move Vector"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 3437219945
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CBoolAnimParameter"
+			m_name = "Has a Path"
+			m_group = "Movement Component/Path"
+			m_id = 
+			{
+				m_id = 2765168161
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_bDefaultValue = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Goal Distance"
+			m_group = "Movement Component/Path"
+			m_id = 
+			{
+				m_id = 3421745068
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Root Motion Turn Speed"
+			m_group = "Movement Component/Root Motion"
+			m_id = 
+			{
+				m_id = 2199313923
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Target Move Speed"
+			m_group = "Movement Component/Movement"
+			m_id = 
+			{
+				m_id = 2989359595
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Goal Position"
+			m_group = "Movement Component/Path"
+			m_id = 
+			{
+				m_id = 4131754867
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Waypoint Position"
+			m_group = "Movement Component/Path"
+			m_id = 
+			{
+				m_id = 1212197676
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CBoolAnimParameter"
+			m_name = "Is On Ground"
+			m_group = "Movement Component"
+			m_id = 
+			{
+				m_id = 2300453641
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_bDefaultValue = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Acceleration Sideways"
+			m_group = "Movement Component/Acceleration"
+			m_id = 
+			{
+				m_id = 2186190582
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Root Motion Speed"
+			m_group = "Movement Component/Root Motion"
+			m_id = 
+			{
+				m_id = 2606291147
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CBoolAnimParameter"
+			m_name = "Force Facing"
+			m_group = "Movement Component/Facing"
+			m_id = 
+			{
+				m_id = 569597549
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_bDefaultValue = false
+		},
+		{
+			_class = "CFloatAnimParameter"
+			m_name = "Acceleration Magnitude"
+			m_group = "Movement Component/Acceleration"
+			m_id = 
+			{
+				m_id = 451217413
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_fDefaultValue = 0.0
+			m_fMinValue = 0.0
+			m_fMaxValue = 1.0
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Facing Vector"
+			m_group = "Movement Component/Facing"
+			m_id = 
+			{
+				m_id = 3051949375
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CVectorAnimParameter"
+			m_name = "Facing Position"
+			m_group = "Movement Component/Facing"
+			m_id = 
+			{
+				m_id = 1799876363
+			}
+			m_componentName = "CMovementComponent"
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = false
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_defaultValue = [ 0.0, 0.0, 0.0 ]
+			m_bInterpolate = false
+		},
+		{
+			_class = "CBoolAnimParameter"
+			m_name = "team_select_chosen"
+			m_group = "ui"
+			m_id = 
+			{
+				m_id = 1655099532
+			}
+			m_componentName = ""
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_bDefaultValue = false
+		},
+	]
+	m_localTags = [  ]
+	m_referencedParamGroups = [  ]
+	m_referencedTagGroups = [  ]
+	m_pSettingsManager = 
+	{
+		_class = "CAnimGraphSettingsManager"
+		m_settingsGroups = 
+		[
+			{
+				_class = "CAnimGraphNetworkSettings"
+				m_bNetworkingEnabled = true
+			},
+		]
+	}
+	m_clipDataManager = 
+	{
+		_class = "CAnimClipDataManager"
+		m_itemTable = 
+		{
+		}
+	}
+	m_modelName = "characters/models/shared/animsets/animset_ct_custom.vmdl"
+	m_previewModelName = ""
+}
