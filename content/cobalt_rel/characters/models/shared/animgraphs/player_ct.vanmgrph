@@ -1,0 +1,484 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:animgraph19:version{0adb35b7-2585-4302-8d05-e2825b4518ac} -->
+{
+	_class = "CAnimationGraph"
+	m_nodeManager = 
+	{
+		_class = "CAnimNodeManager"
+		m_nodes = 
+		[
+			{
+				key = 
+				{
+					m_id = 915991764
+				}
+				value = 
+				{
+					_class = "CCommentAnimNode"
+					m_sName = "CS2 Player Movement Graph"
+					m_vecPosition = [ 6478.0, 3747.0 ]
+					m_nNodeID = 
+					{
+						m_id = 915991764
+					}
+					m_networkMode = "ClientSimulate"
+					m_commentText = "This is the main graph for CS2's Third-person player movement. Entire node logic is contained within this one subgraph named player_custom_main for quick animation remapping if it has a distinct name (click on the subgraph and look for the Remap Animations group on the right)\nIf you want to change the animation logic which usually shouldn't be done, click on the subgraph twice."
+					m_size = [ 375.0, 225.0 ]
+					m_color = [ 49, 139, 146 ]
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1420261748
+				}
+				value = 
+				{
+					_class = "CSubGraphAnimNode"
+					m_sName = ""
+					m_vecPosition = [ 6473.586426, 3993.655273 ]
+					m_nNodeID = 
+					{
+						m_id = 1420261748
+					}
+					m_networkMode = "ServerAuthoritative"
+					m_inputNodeID = 
+					{
+						m_id = 725441246
+					}
+					m_outputNodeID = 
+					{
+						m_id = 736604922
+					}
+					m_inputConnectionMap = [  ]
+					m_subGraphFilename = "characters/models/shared/animgraphs/player_custom_main.vsubgrph"
+					m_animNameMap = 
+					{
+					}
+				}
+			},
+			{
+				key = 
+				{
+					m_id = 1793205300
+				}
+				value = 
+				{
+					_class = "CRootAnimNode"
+					m_sName = "Unnamed"
+					m_vecPosition = [ 6758.0, 3997.0 ]
+					m_nNodeID = 
+					{
+						m_id = 1793205300
+					}
+					m_networkMode = "ServerAuthoritative"
+					m_inputConnection = 
+					{
+						m_nodeID = 
+						{
+							m_id = 1420261748
+						}
+						m_outputID = 
+						{
+							m_id = 944367876
+						}
+					}
+				}
+			},
+		]
+	}
+	m_componentManager = 
+	{
+		_class = "CAnimComponentManager"
+		m_components = 
+		[
+			{
+				_class = "CLookComponent"
+				m_group = ""
+				m_id = 
+				{
+					m_id = 992257812
+				}
+				m_bStartEnabled = true
+				m_nPriority = 100
+				m_networkMode = "ClientSimulate"
+				m_bNetworkLookTarget = false
+				m_lookHeadingID = 
+				{
+					m_id = 1200356453
+				}
+				m_lookHeadingVelocityID = 
+				{
+					m_id = 708961687
+				}
+				m_lookPitchID = 
+				{
+					m_id = 4186817609
+				}
+				m_lookDirectionID = 
+				{
+					m_id = 271244850
+				}
+				m_lookTargetID = 
+				{
+					m_id = 3075008712
+				}
+				m_lookTargetWorldSpaceID = 
+				{
+					m_id = 526089507
+				}
+			},
+			{
+				_class = "CSlopeComponent"
+				m_group = ""
+				m_id = 
+				{
+					m_id = 1857845036
+				}
+				m_bStartEnabled = true
+				m_nPriority = 100
+				m_networkMode = "ServerAuthoritative"
+				m_flTraceDistance = 36.0
+				m_slopeAngleID = 
+				{
+					m_id = 1507027206
+				}
+				m_slopeHeadingID = 
+				{
+					m_id = 1082228984
+				}
+				m_slopeAngleSideID = 
+				{
+					m_id = 2824926
+				}
+				m_slopeAngleFrontID = 
+				{
+					m_id = 1897883205
+				}
+				m_slopeNormalID = 
+				{
+					m_id = 3081985057
+				}
+				m_slopeNormal_WorldSpaceID = 
+				{
+					m_id = 3050590801
+				}
+			},
+			{
+				_class = "CLODComponent"
+				m_group = ""
+				m_id = 
+				{
+					m_id = 2074121845
+				}
+				m_bStartEnabled = true
+				m_nPriority = 100
+				m_networkMode = "ServerAuthoritative"
+				m_nServerLOD = 1
+			},
+		]
+	}
+	m_localParameters = [  ]
+	m_localTags = 
+	[
+		{
+			_class = "CStringAnimTag"
+			m_name = "flinch playing"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1754433889
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "EXTRA ACTIVITY IS ON"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 663852930
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "activity playing"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1742621125
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_walk"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1041001400
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_run"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 951230371
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_crouch"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 753445654
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CTaskStatusAnimTag"
+			m_name = "landing"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 2089365346
+			}
+			m_bIsReferenced = false
+			m_identifierString = ""
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_stand"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1139691010
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_stand_crouch"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1228946465
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "force knife secondary"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 436662994
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_walk_slow"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1102383762
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_walk_fast"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1779015843
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_crouch_fast"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1253945436
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_run_fast"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1269127352
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_crouch_slow"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1437139625
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "mm_run_slow"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 828391676
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "anim steps finished"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 607132211
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "step_reposition"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1538023946
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "step_reposition off"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 763272065
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "step_breathing"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 1100758003
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "step_is repositioning"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 108923320
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "switch_ragdoll_mode"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 259534402
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "rfoot in front"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 426298073
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "Lfoot in front"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 985005912
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "coming to stop finished"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 575144846
+			}
+			m_bIsReferenced = false
+		},
+		{
+			_class = "CStringAnimTag"
+			m_name = "dont_blend_out_leans"
+			m_group = "player_main"
+			m_tagID = 
+			{
+				m_id = 763788023
+			}
+			m_bIsReferenced = false
+		},
+	]
+	m_referencedParamGroups = [  ]
+	m_referencedTagGroups = [  ]
+	m_pSettingsManager = 
+	{
+		_class = "CAnimGraphSettingsManager"
+		m_settingsGroups = 
+		[
+			{
+				_class = "CAnimGraphNetworkSettings"
+				m_bNetworkingEnabled = true
+			},
+		]
+	}
+	m_clipDataManager = 
+	{
+		_class = "CAnimClipDataManager"
+		m_itemTable = 
+		{
+			sh_pstl_stand_reload_90x90 = 
+			{
+				_class = "CAnimClipData"
+				m_tagSpans = 
+				[
+					{
+						_class = "CAnimTagSpan"
+						m_id = 
+						{
+							m_id = 1742621125
+						}
+						m_fStartCycle = 0.0
+						m_fDuration = 0.690579
+					},
+				]
+				m_clipName = "sh_pstl_stand_reload_90x90"
+			}
+		}
+	}
+	m_modelName = "characters/models/shared/animsets/animset_ct.vmdl"
+	m_previewModelName = ""
+}

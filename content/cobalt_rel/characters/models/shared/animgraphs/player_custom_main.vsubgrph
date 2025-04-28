@@ -94518,6 +94518,26 @@
 	m_localParameters = 
 	[
 		{
+                    _class = "CBoolAnimParameter"
+                    m_name = "restart_loadout_logic"
+                    m_sComment = ""
+                    m_group = ""
+                    m_id = 
+                    {
+                        m_id = 1460677614
+                    }
+                    m_componentName = ""
+                    m_bNetworkingRequested = false
+                    m_bIsReferenced = false
+                    m_previewButton = "ANIMPARAM_BUTTON_NONE"
+                    m_eNetworkSetting = "Auto"
+                    m_bUseMostRecentValue = false
+                    m_bAutoReset = false
+                    m_bGameWritable = true
+                    m_bGraphWritable = true
+                    m_bDefaultValue = false
+                },
+		{
 			_class = "CFloatAnimParameter"
 			m_name = "height_above_ground"
 			m_group = "player_main"
