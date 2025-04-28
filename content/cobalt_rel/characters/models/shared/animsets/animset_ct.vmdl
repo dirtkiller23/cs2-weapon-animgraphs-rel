@@ -9088,7 +9088,7 @@
 					},
 					{
 						_class = "AnimIncludeModel"
-						model = "characters/models/shared/animsets/animset_uiplayer_custom.vmdl"
+						model = "characters/models/shared/animsets/animset_uiplayer.vmdl"
 					},
 				]
 				default_root_bone_name = ""
