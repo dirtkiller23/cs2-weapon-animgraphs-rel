@@ -1,0 +1,5 @@
+WARNING!
+This mod now includes direct replacement of game's playermodel T/CT animsets.
+If you know what you're doing, remove OFF from extensions vmdlOFF and vanmgrphOFF in:
+content/xrd200_rel/characters/models/shared/animgraphs and content/xrd200_rel/characters/models/shared/animsets.
+This will compile the animsets and force their usage over the in-game ones!
