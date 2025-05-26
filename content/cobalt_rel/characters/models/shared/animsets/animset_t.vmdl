@@ -2459,6 +2459,7 @@
 								meshes = 
 								[
 									"client_model",
+									"server_model",
 								]
 							},
 						]
@@ -10837,7 +10838,7 @@
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 0.0
+						switch_threshold = 100.0
 						meshes = 
 						[
 							"server_model",

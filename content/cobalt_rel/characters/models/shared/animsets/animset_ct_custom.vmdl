@@ -2459,6 +2459,7 @@
 								meshes = 
 								[
 									"client_model",
+									"server_model",
 								]
 							},
 						]
@@ -2481,7 +2482,7 @@
 							},
 							{
 								from = ""
-								to = ""
+								to = "characters/models/shared/materials/animset_ct.vmat"
 							},
 						]
 						use_global_default = false
@@ -9086,6 +9087,10 @@
 						_class = "Prefab"
 						target_file = "characters/models/shared/animsets/prefabs/ct_anims.vmdl_prefab"
 					},
+					{
+						_class = "AnimIncludeModel"
+						model = "characters/models/shared/animsets/animset_uiplayer_custom.vmdl"
+					},
 				]
 				default_root_bone_name = ""
 			},
@@ -9103,7 +9108,7 @@
 					},
 					{
 						_class = "LODGroup"
-						switch_threshold = 0.0
+						switch_threshold = 100.0
 						meshes = 
 						[
 							"server_model",
