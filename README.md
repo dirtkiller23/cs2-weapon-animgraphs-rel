@@ -1,4 +1,4 @@
-Viewmodel graphs/models are now obsolete due to AG2 release. Same will likely happen to playermodel graphs.
+# **Viewmodel graphs/models are now obsolete due to AG2 release. Same will likely happen to playermodel graphs.**
 
 
 CS2 Weapon Animgraph releases.
