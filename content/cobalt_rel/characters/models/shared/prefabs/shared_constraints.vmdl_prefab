@@ -1,0 +1,528 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "AnimConstraintList"
+				children = 
+				[
+					{
+						_class = "AnimConstraintAim"
+						children = 
+						[
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "scapula_l"
+								relative_origin = [ -3.192927, 6.783957, 63.783119 ]
+								relative_angles = [ 68.029068, -138.968796, 65.482178 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "scap_l_aimat"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "scap_aimup"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.0
+							},
+						]
+						aim_offset = [ 0.0, 90.0, 90.0 ]
+						up_type = 2
+						up_vector = [ 0.0, 0.0, 1.0 ]
+					},
+					{
+						_class = "AnimConstraintAim"
+						children = 
+						[
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "pectaim_l"
+								relative_origin = [ 1.753172, 5.003382, 56.91713 ]
+								relative_angles = [ -41.93026, 156.233902, 45.320751 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_l_aimat"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_l_aimup"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.0
+							},
+						]
+						aim_offset = [ 0.0, 90.0, 90.0 ]
+						up_type = 2
+						up_vector = [ 0.0, 0.0, 1.0 ]
+					},
+					{
+						_class = "AnimConstraintAim"
+						children = 
+						[
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "scapula_r"
+								relative_origin = [ -3.19293, -6.78396, 63.7831 ]
+								relative_angles = [ -68.030884, -41.025169, -114.523499 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "scap_r_aimat"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "scap_aimup"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.0
+							},
+						]
+						aim_offset = [ 0.0, -90.0, -90.0 ]
+						up_type = 2
+						up_vector = [ 0.0, 0.0, -1.0 ]
+					},
+					{
+						_class = "AnimConstraintAim"
+						children = 
+						[
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "pectaim_r"
+								relative_origin = [ 1.75317, -5.00338, 56.917099 ]
+								relative_angles = [ 41.930431, 23.76642, -134.679001 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_r_aimat"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_r_aimup"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.0
+							},
+						]
+						aim_offset = [ 0.0, -90.0, -90.0 ]
+						up_type = 2
+						up_vector = [ 0.0, 0.0, -1.0 ]
+					},
+					{
+						_class = "AnimConstraintPoint"
+						children = 
+						[
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "pecttrans_l"
+								relative_origin = [ -0.682137, 6.075773, 59.307201 ]
+								relative_angles = [ -41.93026, 156.233902, 45.320751 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_l_ptbase"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.5
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_l_aimat"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.5
+							},
+						]
+					},
+					{
+						_class = "AnimConstraintPoint"
+						children = 
+						[
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "pecttrans_r"
+								relative_origin = [ -0.682119, -6.075768, 59.307209 ]
+								relative_angles = [ 41.930431, 23.76642, -134.679001 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_r_aimat"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.5
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "pect_r_ptbase"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.5
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "Folder"
+				name = "Head"
+				children = 
+				[
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "head_0"
+								relative_origin = [ 5.7622, 0.0, -0.0 ]
+								relative_angles = [ 0.0, -0.0, -17.378799 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "head_0_twist"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.5
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintPoint"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "neck_0"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.5
+							},
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "head_0"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.5
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "head_0_twist"
+								relative_origin = [ -2.2255, -0.0, 68.035004 ]
+								relative_angles = [ -90.0, 180.0, 0.0 ]
+								weight = 1.0
+							},
+						]
+					},
+				]
+			},
+			{
+				_class = "Folder"
+				name = "Arms"
+				children = 
+				[
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "hand_l"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 90.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_lower_l_twist"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.65
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "hand_l"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 90.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_lower_l_twist1"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.65
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "hand_r"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 90.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_lower_r_twist"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.65
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "hand_r"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 90.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_lower_r_twist1"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 0.65
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "arm_upper_l"
+								relative_origin = [ 6.6654, -0.0, 0.0 ]
+								relative_angles = [ 21.193899, -34.147499, 16.0373 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_upper_l_twist"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -1.0
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "arm_upper_l"
+								relative_origin = [ 6.6654, -0.0, 0.0 ]
+								relative_angles = [ 21.193899, -34.147499, 16.0373 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_upper_l_twist1"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -0.5
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "arm_upper_r"
+								relative_origin = [ -6.6654, -0.0, 0.0 ]
+								relative_angles = [ 21.193899, -34.147499, 16.0373 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_upper_r_twist"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -1.0
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "arm_upper_r"
+								relative_origin = [ -6.6654, -0.0, 0.0 ]
+								relative_angles = [ 21.193899, -34.147499, 16.0373 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "arm_upper_r_twist1"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -0.5
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+				]
+			},
+			{
+				_class = "Folder"
+				name = "Legs"
+				children = 
+				[
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "leg_upper_l"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, -180.0, 0.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "leg_upper_l_twist"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -1.0
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "leg_upper_l"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, -180.0, 0.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "leg_upper_l_twist1"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -0.5
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "leg_upper_r"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 10.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "leg_upper_r_twist"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -1.0
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+					{
+						_class = "AnimConstraintTiltTwist"
+						children = 
+						[
+							{
+								_class = "AnimConstraintBoneInput"
+								parent_bone = "leg_upper_r"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = 1.0
+							},
+							{
+								_class = "AnimConstraintSlave"
+								parent_bone = "leg_upper_r_twist1"
+								relative_origin = [ 0.0, 0.0, 0.0 ]
+								relative_angles = [ 0.0, 0.0, 0.0 ]
+								weight = -0.5
+							},
+						]
+						input_axis = 0
+						slave_axis = 0
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

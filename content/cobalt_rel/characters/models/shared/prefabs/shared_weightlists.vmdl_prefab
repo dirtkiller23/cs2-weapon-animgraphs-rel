@@ -1,0 +1,5400 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "WeightListList"
+				children = 
+				[
+					{
+						_class = "WeightList"
+						name = "NOLOWERBODY"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "NONE"
+						default_weight = 0.0
+						weights = [  ]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "NOUPPERBODY"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ALLUPPERBODY"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "PELVISONLY"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "SPINEONLY"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO_GRENADE_THROWS_MOVING"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.202899
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.7
+							},
+							{
+								bone = "neck_0"
+								weight = 0.6
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.2
+							},
+							{
+								bone = "spine_1"
+								weight = 0.3
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.9
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_C4"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.2
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.5
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.6
+							},
+							{
+								bone = "hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.1
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.5
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_2"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_CROUCH_C4"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.299539
+							},
+							{
+								bone = "hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.101382
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.5
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.801843
+							},
+							{
+								bone = "spine_2"
+								weight = 0.801843
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_r"
+								weight = 0.1
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.1
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.3
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "scapula_r"
+								weight = 0.52649
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.65
+							},
+							{
+								bone = "spine_2"
+								weight = 0.45
+							},
+							{
+								bone = "spine_3"
+								weight = 0.35
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_KNIFE"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.4
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.35
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.7
+							},
+							{
+								bone = "hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.2
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.4
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_2"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_GRENADE_CROUCH"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.2
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.7
+							},
+							{
+								bone = "spine_1"
+								weight = 0.6
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.4
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_SOFTER"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.35
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.35023
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.603687
+							},
+							{
+								bone = "spine_1"
+								weight = 0.4
+							},
+							{
+								bone = "spine_2"
+								weight = 0.25
+							},
+							{
+								bone = "spine_3"
+								weight = 0.1
+							},
+							{
+								bone = "weaponhier_jnt"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_SOFTER_LHAND"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.07
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.4
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.7
+							},
+							{
+								bone = "spine_1"
+								weight = 0.4
+							},
+							{
+								bone = "spine_2"
+								weight = 0.3
+							},
+							{
+								bone = "spine_3"
+								weight = 0.25
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_GRENADE_LOCO"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.7
+							},
+							{
+								bone = "spine_1"
+								weight = 0.45
+							},
+							{
+								bone = "spine_2"
+								weight = 0.147465
+							},
+							{
+								bone = "spine_3"
+								weight = 0.096774
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_GRENADE_LOCO_CROUCH"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.7
+							},
+							{
+								bone = "spine_1"
+								weight = 0.55
+							},
+							{
+								bone = "spine_2"
+								weight = 0.25
+							},
+							{
+								bone = "spine_3"
+								weight = 0.2
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_KNIFE_LOCO"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.3
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.2
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.4
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.5
+							},
+							{
+								bone = "spine_2"
+								weight = 0.096774
+							},
+							{
+								bone = "spine_3"
+								weight = 0.096774
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_KNIFE_LOCO_CROUCH"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.25
+							},
+							{
+								bone = "finger_index_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "scapula_r"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.75
+							},
+							{
+								bone = "spine_2"
+								weight = 0.25
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.246377
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO_KNIFE_CROUCH_MOVING"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.2
+							},
+							{
+								bone = "spine_2"
+								weight = 0.4
+							},
+							{
+								bone = "spine_3"
+								weight = 0.6
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_2HANDS_CROUCH"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.2
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.65
+							},
+							{
+								bone = "spine_1"
+								weight = 0.45
+							},
+							{
+								bone = "spine_2"
+								weight = 0.35
+							},
+							{
+								bone = "spine_3"
+								weight = 0.2
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.681159
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.904177
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.65
+							},
+							{
+								bone = "spine_1"
+								weight = 0.4
+							},
+							{
+								bone = "spine_2"
+								weight = 0.2
+							},
+							{
+								bone = "spine_3"
+								weight = 0.05
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_HARD"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.25
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.751196
+							},
+							{
+								bone = "spine_2"
+								weight = 0.6
+							},
+							{
+								bone = "spine_3"
+								weight = 0.5
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_STRAFE"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.7
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_JUMPFALL"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.7
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.398551
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.1
+							},
+							{
+								bone = "spine_1"
+								weight = 0.5
+							},
+							{
+								bone = "spine_2"
+								weight = 0.751196
+							},
+							{
+								bone = "spine_3"
+								weight = 0.95
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO_SOFT"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.130435
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.01
+							},
+							{
+								bone = "spine_1"
+								weight = 0.102871
+							},
+							{
+								bone = "spine_2"
+								weight = 0.3
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO_KNIFE_SOFT"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.7
+							},
+							{
+								bone = "neck_0"
+								weight = 0.6
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.2
+							},
+							{
+								bone = "spine_1"
+								weight = 0.3
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.9
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO_KNIFE_HARD"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.65
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.15
+							},
+							{
+								bone = "spine_1"
+								weight = 0.3
+							},
+							{
+								bone = "spine_2"
+								weight = 0.6
+							},
+							{
+								bone = "spine_3"
+								weight = 0.9
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINALL_KNIFE_SOFT"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.6
+							},
+							{
+								bone = "pelvis"
+								weight = 0.4
+							},
+							{
+								bone = "root_motion"
+								weight = 0.402778
+							},
+							{
+								bone = "spine_0"
+								weight = 0.2
+							},
+							{
+								bone = "spine_1"
+								weight = 0.198565
+							},
+							{
+								bone = "spine_2"
+								weight = 0.6
+							},
+							{
+								bone = "spine_3"
+								weight = 0.95
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINALL_KNIFE_CROUCH_SOFT"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 0.5
+							},
+							{
+								bone = "root_motion"
+								weight = 0.5
+							},
+							{
+								bone = "spine_0"
+								weight = 0.45
+							},
+							{
+								bone = "spine_1"
+								weight = 0.45
+							},
+							{
+								bone = "spine_2"
+								weight = 0.303828
+							},
+							{
+								bone = "spine_3"
+								weight = 0.95
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO_NOHEAD"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.166667
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.1
+							},
+							{
+								bone = "spine_1"
+								weight = 0.5
+							},
+							{
+								bone = "spine_2"
+								weight = 0.75
+							},
+							{
+								bone = "spine_3"
+								weight = 0.95
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ALL_NOHEAD"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.8
+							},
+							{
+								bone = "spine_1"
+								weight = 0.6
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.4
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDINTORSO_NOHEAD_CROUCHDEPLOYS"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.188406
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.25
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.1
+							},
+							{
+								bone = "spine_1"
+								weight = 0.35
+							},
+							{
+								bone = "spine_2"
+								weight = 0.6
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "RECROUCH"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.884058
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.897129
+							},
+							{
+								bone = "spine_1"
+								weight = 0.4
+							},
+							{
+								bone = "spine_2"
+								weight = 0.2
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ALL"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_l_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "FLASHED"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.15
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.2
+							},
+							{
+								bone = "head_0"
+								weight = 1.0
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "root_motion"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.1
+							},
+							{
+								bone = "spine_1"
+								weight = 0.25
+							},
+							{
+								bone = "spine_2"
+								weight = 0.7
+							},
+							{
+								bone = "spine_3"
+								weight = 0.9
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.24
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "C4_DEFUSAL_INVERT"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.202899
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.4
+							},
+							{
+								bone = "spine_1"
+								weight = 0.65
+							},
+							{
+								bone = "spine_2"
+								weight = 0.85
+							},
+							{
+								bone = "spine_3"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "DEATHPOSE"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "pelvis"
+								weight = 0.3
+							},
+							{
+								bone = "root_motion"
+								weight = 0.302083
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEAN_ONLY"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_l_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEAN_PELVIS"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.275362
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "PARACHUTE"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.847826
+							},
+							{
+								bone = "clavicle_l"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.5
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.8
+							},
+							{
+								bone = "spine_2"
+								weight = 0.4
+							},
+							{
+								bone = "spine_3"
+								weight = 0.2
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "COMINGTOSTAND"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NOFOOT_IK"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.904177
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.358025
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.65
+							},
+							{
+								bone = "spine_1"
+								weight = 0.4
+							},
+							{
+								bone = "spine_2"
+								weight = 0.2
+							},
+							{
+								bone = "spine_3"
+								weight = 0.05
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "CHANGE_DIRECTION_BLEND"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEANSLOPE"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "ankle_l"
+								weight = 0.0
+							},
+							{
+								bone = "ankle_r"
+								weight = 0.0
+							},
+							{
+								bone = "ball_l"
+								weight = 0.0
+							},
+							{
+								bone = "ball_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.49375
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEANSLOPE1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "ankle_l"
+								weight = 1.0
+							},
+							{
+								bone = "ankle_r"
+								weight = 1.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 0.825
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 0.83125
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.26875
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.275
+							},
+							{
+								bone = "neck_0"
+								weight = 0.01875
+							},
+							{
+								bone = "pelvis"
+								weight = 0.18125
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.15
+							},
+							{
+								bone = "spine_1"
+								weight = 0.10625
+							},
+							{
+								bone = "spine_2"
+								weight = 0.0625
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0375
+							},
+							{
+								bone = "weaponhier_jnt"
+								weight = 0.043478
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LHAND_CONSTRAIN_GUN"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "STANDINGBLEND_TEMP"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "modelspace"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.594203
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.621359
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.634304
+							},
+							{
+								bone = "neck_0"
+								weight = 0.624595
+							},
+							{
+								bone = "spine_0"
+								weight = 0.126214
+							},
+							{
+								bone = "spine_1"
+								weight = 0.271845
+							},
+							{
+								bone = "spine_2"
+								weight = 0.365696
+							},
+							{
+								bone = "spine_3"
+								weight = 0.459547
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "finger_index_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_index_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_middle_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_middle_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_pinky_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_pinky_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_ring_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_ring_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_thumb_0_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_thumb_0_r"
+								weight = 1.0
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 1.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "half_everything"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "pelvis"
+								weight = 0.5
+							},
+							{
+								bone = "root_motion"
+								weight = 0.5
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "procedural_hit_reacts"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.740741
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.744856
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 0.736625
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 0.73251
+							},
+							{
+								bone = "leg_upper_l_twist1"
+								weight = 0.066667
+							},
+							{
+								bone = "neck_0"
+								weight = 0.897119
+							},
+							{
+								bone = "pelvis"
+								weight = 0.053498
+							},
+							{
+								bone = "root_motion"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.127572
+							},
+							{
+								bone = "spine_1"
+								weight = 0.238683
+							},
+							{
+								bone = "spine_2"
+								weight = 0.399177
+							},
+							{
+								bone = "spine_3"
+								weight = 0.547325
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_STRAFE1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.518692
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.514019
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.7
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_STRAFE2"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "root_motion"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.0
+							},
+							{
+								bone = "spine_2"
+								weight = 0.0
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms_modelspace_pos"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.5
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms_modelspace_orient"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.366337
+							},
+							{
+								bone = "weaponhier_jnt"
+								weight = 0.707921
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms_modelspace_new1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "hand_l"
+								weight = 1.0
+							},
+							{
+								bone = "hand_r"
+								weight = 1.0
+							},
+							{
+								bone = "head_0"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.752475
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.227723
+							},
+							{
+								bone = "spine_1"
+								weight = 0.351485
+							},
+							{
+								bone = "spine_2"
+								weight = 0.504951
+							},
+							{
+								bone = "spine_3"
+								weight = 0.683168
+							},
+							{
+								bone = "weaponhier_jnt"
+								weight = 0.727723
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms_modelspace_new_position"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "weaponhier_jnt"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms_modelspace_new_positionlocal"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "weaponhier_jnt"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms_modelspace_new_position1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "weaponhier_jnt"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "modelspace_90x90"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.594203
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.621359
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.634304
+							},
+							{
+								bone = "neck_0"
+								weight = 0.624595
+							},
+							{
+								bone = "spine_0"
+								weight = 0.126214
+							},
+							{
+								bone = "spine_1"
+								weight = 0.271845
+							},
+							{
+								bone = "spine_2"
+								weight = 0.365696
+							},
+							{
+								bone = "spine_3"
+								weight = 0.459547
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "ikarms90x90"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "finger_index_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_index_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_middle_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_middle_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_pinky_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_pinky_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_ring_meta_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_ring_meta_r"
+								weight = 1.0
+							},
+							{
+								bone = "finger_thumb_0_l"
+								weight = 1.0
+							},
+							{
+								bone = "finger_thumb_0_r"
+								weight = 1.0
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 1.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "half_everything90x90"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "pelvis"
+								weight = 0.5
+							},
+							{
+								bone = "root_motion"
+								weight = 0.5
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "modelspace_slashes_throws"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "finger_index_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_index_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.35
+							},
+							{
+								bone = "spine_1"
+								weight = 0.180488
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_C4_bkup"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.2
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.5
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.6
+							},
+							{
+								bone = "hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.1
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.5
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_2"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.507246
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_CROUCH_C4_bkup"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.299539
+							},
+							{
+								bone = "hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.101382
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.5
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.801843
+							},
+							{
+								bone = "spine_2"
+								weight = 0.801843
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_bkup"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_r"
+								weight = 0.1
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.1
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.3
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.65
+							},
+							{
+								bone = "spine_2"
+								weight = 0.45
+							},
+							{
+								bone = "spine_3"
+								weight = 0.35
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_KNIFE_bkup"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.4
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.884058
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.35
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.7
+							},
+							{
+								bone = "hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.2
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.4
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_2"
+								weight = 0.797235
+							},
+							{
+								bone = "spine_3"
+								weight = 0.8
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.4
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_GRENADE_CROUCH_bkup"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.79
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.2
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.7
+							},
+							{
+								bone = "spine_1"
+								weight = 0.6
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.4
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_2HANDS_CROUCH_bkup"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.2
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.65
+							},
+							{
+								bone = "spine_1"
+								weight = 0.45
+							},
+							{
+								bone = "spine_2"
+								weight = 0.35
+							},
+							{
+								bone = "spine_3"
+								weight = 0.2
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_KNIFE_LOCO_CROUCH_bkup"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.746377
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.25
+							},
+							{
+								bone = "head_0"
+								weight = 0.1
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.1
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.75
+							},
+							{
+								bone = "spine_2"
+								weight = 0.25
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.246377
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_KNIFE_LOCO_CROUCH_newjames"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.4
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.35
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.7
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.75
+							},
+							{
+								bone = "spine_2"
+								weight = 0.25
+							},
+							{
+								bone = "spine_3"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_KNIFE_LOCO_CROUCH_new_james_refonly"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.2
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.65
+							},
+							{
+								bone = "spine_1"
+								weight = 0.45
+							},
+							{
+								bone = "spine_2"
+								weight = 0.35
+							},
+							{
+								bone = "spine_3"
+								weight = 0.2
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "delete_me_half_pelvis"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_l_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.5
+							},
+							{
+								bone = "root_motion"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "just_head_test_modelspace"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "head_0"
+								weight = 0.565934
+							},
+							{
+								bone = "neck_0"
+								weight = 0.357143
+							},
+							{
+								bone = "spine_3"
+								weight = 0.159341
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "hifrequency"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_l_offset"
+								weight = 0.489097
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.489097
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.495327
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.495327
+							},
+							{
+								bone = "pelvis"
+								weight = 0.18
+							},
+							{
+								bone = "root_motion"
+								weight = 0.492212
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEANSLOPE_STRETCH"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_lower_l"
+								weight = 0.283422
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 0.272727
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.085561
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.085561
+							},
+							{
+								bone = "pelvis"
+								weight = 0.35
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEANSLOPE_STRETCH_inverted"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.336898
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.347594
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.187166
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.192513
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.106952
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.112299
+							},
+							{
+								bone = "hand_l"
+								weight = 0.569061
+							},
+							{
+								bone = "hand_r"
+								weight = 0.596685
+							},
+							{
+								bone = "head_0"
+								weight = 0.347594
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.18232
+							},
+							{
+								bone = "spine_0"
+								weight = 0.058824
+							},
+							{
+								bone = "spine_1"
+								weight = 0.058824
+							},
+							{
+								bone = "spine_2"
+								weight = 0.064171
+							},
+							{
+								bone = "spine_3"
+								weight = 0.074866
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEANSLOPE_STRETCH1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_lower_l"
+								weight = 0.57754
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 0.57754
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.181818
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.192513
+							},
+							{
+								bone = "pelvis"
+								weight = 0.2
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LEANSLOPE_STRETCH_inverted1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_l"
+								weight = 0.518717
+							},
+							{
+								bone = "arm_lower_r"
+								weight = 0.561497
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.262032
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.304813
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.064171
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.112299
+							},
+							{
+								bone = "hand_l"
+								weight = 0.518717
+							},
+							{
+								bone = "hand_r"
+								weight = 0.55615
+							},
+							{
+								bone = "head_0"
+								weight = 0.524064
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.15508
+							},
+							{
+								bone = "spine_0"
+								weight = 0.058824
+							},
+							{
+								bone = "spine_1"
+								weight = 0.058824
+							},
+							{
+								bone = "spine_2"
+								weight = 0.064171
+							},
+							{
+								bone = "spine_3"
+								weight = 0.074866
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "OMIT_FEET_IK"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_l_offset"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "head_no_change"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "neck_0"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bonemask_body"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.144231
+							},
+							{
+								bone = "spine_0"
+								weight = 0.269231
+							},
+							{
+								bone = "spine_1"
+								weight = 0.384615
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bonemask_body_modelspace"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.37
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.29
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.044888
+							},
+							{
+								bone = "spine_1"
+								weight = 0.087282
+							},
+							{
+								bone = "spine_2"
+								weight = 0.14
+							},
+							{
+								bone = "spine_3"
+								weight = 0.21
+							},
+							{
+								bone = "weaponhier_jnt"
+								weight = 0.5
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bonemask_body2"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "clavicle_l"
+								weight = 0.096774
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.090323
+							},
+							{
+								bone = "head_0"
+								weight = 0.5
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.419355
+							},
+							{
+								bone = "pelvis"
+								weight = 0.083871
+							},
+							{
+								bone = "spine_0"
+								weight = 0.148387
+							},
+							{
+								bone = "spine_1"
+								weight = 0.206452
+							},
+							{
+								bone = "spine_2"
+								weight = 0.264516
+							},
+							{
+								bone = "spine_3"
+								weight = 0.348387
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bonemask_body_modelspace_bkup_old"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.25
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.19
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.02
+							},
+							{
+								bone = "spine_1"
+								weight = 0.06
+							},
+							{
+								bone = "spine_2"
+								weight = 0.09
+							},
+							{
+								bone = "spine_3"
+								weight = 0.13
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bonemask_body_modelspace_half"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.13
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.11
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.02
+							},
+							{
+								bone = "spine_1"
+								weight = 0.05
+							},
+							{
+								bone = "spine_2"
+								weight = 0.07
+							},
+							{
+								bone = "spine_3"
+								weight = 0.09
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bonemask_body_modelspace_halfMM"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "chesthier_offset"
+								weight = 0.226782
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.226782
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.226782
+							},
+							{
+								bone = "head_0"
+								weight = 0.13
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.11
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.02
+							},
+							{
+								bone = "spine_1"
+								weight = 0.05
+							},
+							{
+								bone = "spine_2"
+								weight = 0.07
+							},
+							{
+								bone = "spine_3"
+								weight = 0.09
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "BLENDOUTTORSO_NEW_TEST_mdlspc"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_lower_r"
+								weight = 0.1
+							},
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.1
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.3
+							},
+							{
+								bone = "hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.3
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "scapula_r"
+								weight = 0.52649
+							},
+							{
+								bone = "spine_0"
+								weight = 0.9
+							},
+							{
+								bone = "spine_1"
+								weight = 0.65
+							},
+							{
+								bone = "spine_2"
+								weight = 0.45
+							},
+							{
+								bone = "spine_3"
+								weight = 0.35
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "bonemask_body_modelspace1"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 0.25
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.219451
+							},
+							{
+								bone = "pelvis"
+								weight = 0.0
+							},
+							{
+								bone = "spine_0"
+								weight = 0.044888
+							},
+							{
+								bone = "spine_1"
+								weight = 0.087282
+							},
+							{
+								bone = "spine_2"
+								weight = 0.127182
+							},
+							{
+								bone = "spine_3"
+								weight = 0.17207
+							},
+							{
+								bone = "weaponhier_jnt"
+								weight = 0.5
+							},
+							{
+								bone = "weaponhier_l_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "modelspace_slashes_grenade_throws"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.99768
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 0.496982
+							},
+							{
+								bone = "spine_0"
+								weight = 0.85
+							},
+							{
+								bone = "spine_3"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "planting_bomb"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "ankle_l"
+								weight = 1.0
+							},
+							{
+								bone = "leg_l_iktarget"
+								weight = 1.0
+							},
+							{
+								bone = "leg_l_offset"
+								weight = 0.729904
+							},
+							{
+								bone = "leg_lower_l"
+								weight = 0.707395
+							},
+							{
+								bone = "leg_lower_r"
+								weight = 1.0
+							},
+							{
+								bone = "leg_r_iktarget"
+								weight = 0.488746
+							},
+							{
+								bone = "leg_r_offset"
+								weight = 0.488746
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.385852
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.385852
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "just_IK_hands_pose_spcae"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "IK_hands_and_some_upper_body_pose_space"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_l"
+								weight = 0.0
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_index_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_index_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.745763
+							},
+							{
+								bone = "spine_2"
+								weight = 0.501211
+							},
+							{
+								bone = "spine_3"
+								weight = 0.5
+							},
+							{
+								bone = "weapon_hand_l"
+								weight = 0.0
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.001669
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "modelspace_slashes_throws_new_runanims"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "finger_index_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_index_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_r"
+								weight = 0.0
+							},
+							{
+								bone = "head_0"
+								weight = 1.0
+							},
+							{
+								bone = "neck_0"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.35
+							},
+							{
+								bone = "spine_3"
+								weight = 0.483607
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "modelspace_slashes_throws_new_runanims_old"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 1.0
+							},
+							{
+								bone = "finger_index_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_index_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_middle_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_pinky_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_ring_meta_r"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_l"
+								weight = 0.0
+							},
+							{
+								bone = "finger_thumb_0_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.35
+							},
+							{
+								bone = "spine_1"
+								weight = 0.35
+							},
+							{
+								bone = "weapon_hand_r"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "modelspace_deploys"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 1.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 1.0
+							},
+							{
+								bone = "chesthier_offset"
+								weight = 0.500627
+							},
+							{
+								bone = "leg_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "leg_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "neck_0"
+								weight = 0.501078
+							},
+							{
+								bone = "pelvis"
+								weight = 0.496982
+							},
+							{
+								bone = "spine_0"
+								weight = 0.0
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.498118
+							},
+							{
+								bone = "weaponhier_r_iktarget"
+								weight = 0.498922
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "LADDER"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "clavicle_l"
+								weight = 0.003344
+							},
+							{
+								bone = "clavicle_r"
+								weight = 0.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+							{
+								bone = "spine_1"
+								weight = 0.752508
+							},
+							{
+								bone = "spine_2"
+								weight = 0.5
+							},
+							{
+								bone = "spine_3"
+								weight = 0.25
+							},
+							{
+								bone = "weaponhier_jnt"
+								weight = 0.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+					{
+						_class = "WeightList"
+						name = "nofk_arm_additions"
+						default_weight = 0.0
+						weights = 
+						[
+							{
+								bone = "arm_upper_l"
+								weight = 0.0
+							},
+							{
+								bone = "arm_upper_r"
+								weight = 0.0
+							},
+							{
+								bone = "hand_l"
+								weight = 1.0
+							},
+							{
+								bone = "hand_r"
+								weight = 1.0
+							},
+							{
+								bone = "pelvis"
+								weight = 1.0
+							},
+							{
+								bone = "root_motion"
+								weight = 1.0
+							},
+						]
+						master_morph_weight = 0.0
+						morph_weights = [  ]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

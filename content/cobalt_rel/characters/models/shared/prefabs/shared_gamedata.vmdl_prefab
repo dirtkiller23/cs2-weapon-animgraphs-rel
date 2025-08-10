@@ -1,0 +1,1639 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "GameDataList"
+				children = 
+				[
+					{
+						_class = "MovementSettings"
+						movementsettings = 
+						{
+							enable_crouch_speeds = false
+							standard_speeds = 
+							{
+								Slow = 
+								{
+									speed = 135.199997
+									uses_range = false
+									stop_distance_range = 0.0
+									hop_distance_range = 0.0
+									start_distance = 0.0
+									min_turn_radius = 0.0
+								}
+								Fast = 
+								{
+									speed = 260.0
+									uses_range = false
+									stop_distance_range = 0.0
+									hop_distance_range = 0.0
+									start_distance = 0.0
+									min_turn_radius = 0.0
+								}
+							}
+							speeds = [  ]
+							maxSpringTension = 100.0
+							springConstant = 10.0
+							useSmoothPaths = true
+							sharpStartAngle = 180.0
+							minIdleTurnAngle = 10.0
+						}
+					},
+					{
+						_class = "Feet"
+						children = 
+						[
+							{
+								_class = "Foot"
+								name = "Foot_Left"
+								anklebone = "ankle_l"
+								toebone = "ball_l"
+								balloffset = [ 7.8228, -0.570551, -0.597954 ]
+								heeloffset = [ -0.645155, -5.204065, -0.797314 ]
+								autolevel = true
+								traceheight = 30.0
+								traceradius = 0.0
+							},
+							{
+								_class = "Foot"
+								name = "Foot_Right"
+								anklebone = "ankle_r"
+								toebone = "ball_r"
+								balloffset = [ -7.822804, 0.570553, 0.597955 ]
+								heeloffset = [ 0.645157, 5.204065, 0.797314 ]
+								autolevel = true
+								traceheight = 30.0
+								traceradius = 0.0
+							},
+						]
+						locktolerance = 0.6
+						heighttolerance = 2.0
+						sanitizetrajectories = true
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "CPhysicsBodyGameMarkupData"
+						game_keys = 
+						{
+							m_PhysicsBodyMarkupByBoneName = 
+        {
+            ankle_r = 
+            {
+                m_TargetBody = "ankle_r"
+                m_Tag = ""
+            }
+            leg_lower_l = 
+            {
+                m_TargetBody = "leg_lower_l"
+                m_Tag = ""
+            }
+            hand_r = 
+            {
+                m_TargetBody = "hand_r"
+                m_Tag = ""
+            }
+            ankle_l = 
+            {
+                m_TargetBody = "ankle_l"
+                m_Tag = ""
+            }
+            arm_lower_r = 
+            {
+                m_TargetBody = "arm_lower_r"
+                m_Tag = ""
+            }
+            hand_l = 
+            {
+                m_TargetBody = "hand_l"
+                m_Tag = ""
+            }
+            arm_lower_l = 
+            {
+                m_TargetBody = "arm_lower_l"
+                m_Tag = ""
+            }
+            arm_upper_r = 
+            {
+                m_TargetBody = "arm_upper_r"
+                m_Tag = ""
+            }
+            arm_upper_l = 
+            {
+                m_TargetBody = "arm_upper_l"
+                m_Tag = ""
+            }
+            head_0 = 
+            {
+                m_TargetBody = "head_0"
+                m_Tag = ""
+            }
+            leg_lower_r = 
+            {
+                m_TargetBody = "leg_lower_r"
+                m_Tag = ""
+            }
+            leg_upper_L = 
+            {
+                m_TargetBody = "leg_upper_L"
+                m_Tag = ""
+            }
+            leg_upper_r = 
+            {
+                m_TargetBody = "leg_upper_r"
+                m_Tag = ""
+            }
+            spine_2 = 
+            {
+                m_TargetBody = "spine_2"
+                m_Tag = ""
+            }
+            pelvis = 
+            {
+                m_TargetBody = "pelvis"
+                m_Tag = ""
+            }
+        }
+						}
+					},
+				]
+			},
+			{
+				_class = "Folder"
+				name = "LookAt_Chains"
+				children = 
+				[
+					{
+						_class = "LookAtChain"
+						name = "weapon_aim_tweaks_head"
+						lookat_chain = 
+						{
+							name = "weapon_aim_tweaks_head"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.4
+								},
+								{
+									name = "neck_0"
+									weight = 0.2
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "weapon_aim_tweaks_gun"
+						lookat_chain = 
+						{
+							name = "weapon_aim_tweaks_gun"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 1.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "activity_aim_tweaks_body_head"
+						lookat_chain = 
+						{
+							name = "activity_aim_tweaks_body_head"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 1.0
+								},
+								{
+									name = "spine_3"
+									weight = 1.0
+								},
+								{
+									name = "spine_2"
+									weight = 1.0
+								},
+								{
+									name = "spine_1"
+									weight = 0.5
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "activity_aim_tweaks_gun"
+						lookat_chain = 
+						{
+							name = "activity_aim_tweaks_gun"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 1.0
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 1.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "activity_aim_tweaks_body_head_gun"
+						lookat_chain = 
+						{
+							name = "activity_aim_tweaks_body_head_gun"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 1.0
+								},
+								{
+									name = "spine_3"
+									weight = 1.0
+								},
+								{
+									name = "spine_2"
+									weight = 0.0
+								},
+								{
+									name = "spine_1"
+									weight = 0.0
+								},
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 0.0
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_body_head"
+						lookat_chain = 
+						{
+							name = "aim_body_head"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.75
+								},
+								{
+									name = "neck_0"
+									weight = 0.35
+								},
+								{
+									name = "spine_3"
+									weight = 0.35
+								},
+								{
+									name = "spine_2"
+									weight = 0.35
+								},
+								{
+									name = "spine_1"
+									weight = 0.15
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_gun"
+						lookat_chain = 
+						{
+							name = "aim_gun"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 0.6
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_02"
+						lookat_chain = 
+						{
+							name = "aim_test_02"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 0.5
+								},
+								{
+									name = "spine_3"
+									weight = 0.5
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_03"
+						lookat_chain = 
+						{
+							name = "aim_test_03"
+							bones = 
+							[
+								{
+									name = "spine_2"
+									weight = 0.35
+								},
+								{
+									name = "spine_1"
+									weight = 0.35
+								},
+								{
+									name = "spine_0"
+									weight = 0.25
+								},
+								{
+									name = "pelvis"
+									weight = 0.1
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test"
+						lookat_chain = 
+						{
+							name = "aim_test"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 1.0
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_04"
+						lookat_chain = 
+						{
+							name = "aim_test_04"
+							bones = 
+							[
+								{
+									name = "leg_upper_l"
+									weight = 0.4
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_05"
+						lookat_chain = 
+						{
+							name = "aim_test_05"
+							bones = 
+							[
+								{
+									name = "leg_upper_r"
+									weight = 0.4
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_06"
+						lookat_chain = 
+						{
+							name = "aim_test_06"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 0.85
+								},
+								{
+									name = "spine_3"
+									weight = 0.85
+								},
+								{
+									name = "spine_2"
+									weight = 0.35
+								},
+								{
+									name = "spine_1"
+									weight = 0.35
+								},
+								{
+									name = "spine_0"
+									weight = 0.25
+								},
+								{
+									name = "pelvis"
+									weight = 0.1
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_07"
+						lookat_chain = 
+						{
+							name = "aim_test_07"
+							bones = 
+							[
+								{
+									name = "leg_l_iktarget"
+									weight = 0.4
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_08"
+						lookat_chain = 
+						{
+							name = "aim_test_08"
+							bones = 
+							[
+								{
+									name = "leg_r_iktarget"
+									weight = 0.4
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_09"
+						lookat_chain = 
+						{
+							name = "aim_test_09"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 0.85
+								},
+								{
+									name = "spine_3"
+									weight = 0.75
+								},
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 1.0
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.67
+								},
+								{
+									name = "chesthier_offset"
+									weight = 0.0
+								},
+								{
+									name = "spine_2"
+									weight = 0.35
+								},
+								{
+									name = "spine_1"
+									weight = 0.35
+								},
+								{
+									name = "spine_0"
+									weight = 0.25
+								},
+								{
+									name = "pelvis"
+									weight = 0.1
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_06_activity_x"
+						lookat_chain = 
+						{
+							name = "aim_test_06_activity_x"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.5
+								},
+								{
+									name = "neck_0"
+									weight = 0.446
+								},
+								{
+									name = "spine_3"
+									weight = 0.25
+								},
+								{
+									name = "spine_2"
+									weight = 0.25
+								},
+								{
+									name = "spine_1"
+									weight = 0.1
+								},
+								{
+									name = "spine_0"
+									weight = 0.0
+								},
+								{
+									name = "pelvis"
+									weight = 0.1
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_06_activity_x_Rarm"
+						lookat_chain = 
+						{
+							name = "aim_test_06_activity_x_Rarm"
+							bones = 
+							[
+								{
+									name = "arm_upper_r"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_06_activity_x_Larm"
+						lookat_chain = 
+						{
+							name = "aim_test_06_activity_x_Larm"
+							bones = 
+							[
+								{
+									name = "arm_upper_l"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_half"
+						lookat_chain = 
+						{
+							name = "aim_test_half"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 0.5
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_06_half"
+						lookat_chain = 
+						{
+							name = "aim_test_06_half"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.5
+								},
+								{
+									name = "neck_0"
+									weight = 0.43
+								},
+								{
+									name = "spine_3"
+									weight = 0.43
+								},
+								{
+									name = "spine_2"
+									weight = 0.18
+								},
+								{
+									name = "spine_1"
+									weight = 0.18
+								},
+								{
+									name = "spine_0"
+									weight = 0.12
+								},
+								{
+									name = "pelvis"
+									weight = 0.05
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_nosweep"
+						lookat_chain = 
+						{
+							name = "aim_test_nosweep"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 0.65
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_testb"
+						lookat_chain = 
+						{
+							name = "aim_testb"
+							bones = 
+							[
+								{
+									name = "weaponhier_jnt"
+									weight = 1.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_body_head_big_contort_test"
+						lookat_chain = 
+						{
+							name = "aim_body_head_big_contort_test"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 1.0
+								},
+								{
+									name = "spine_3"
+									weight = 1.0
+								},
+								{
+									name = "spine_2"
+									weight = 0.75
+								},
+								{
+									name = "spine_1"
+									weight = 0.321
+								},
+								{
+									name = "spine_0"
+									weight = 0.16
+								},
+								{
+									name = "pelvis"
+									weight = 0.08
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_body_head_big_contort_test_02"
+						lookat_chain = 
+						{
+							name = "aim_body_head_big_contort_test_02"
+							bones = 
+							[
+								{
+									name = "arm_upper_r"
+									weight = 1.0
+								},
+								{
+									name = "clavicle_r"
+									weight = 0.75
+								},
+								{
+									name = "spine_3"
+									weight = 0.5
+								},
+								{
+									name = "spine_2"
+									weight = 0.32
+								},
+								{
+									name = "spine_1"
+									weight = 0.16
+								},
+								{
+									name = "spine_0"
+									weight = 0.08
+								},
+								{
+									name = "pelvis"
+									weight = 0.04
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_body_head_big_contort_test_03"
+						lookat_chain = 
+						{
+							name = "aim_body_head_big_contort_test_03"
+							bones = 
+							[
+								{
+									name = "arm_upper_l"
+									weight = 0.5
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_body_head_big_contort_test_04"
+						lookat_chain = 
+						{
+							name = "aim_body_head_big_contort_test_04"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.5
+								},
+								{
+									name = "neck_0"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_body_head_big_contort_test_05"
+						lookat_chain = 
+						{
+							name = "aim_body_head_big_contort_test_05"
+							bones = 
+							[
+								{
+									name = "weaponhier_jnt"
+									weight = 1.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_pelvis_back_look_up_down"
+						lookat_chain = 
+						{
+							name = "aim_pelvis_back_look_up_down"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.5
+								},
+								{
+									name = "neck_0"
+									weight = 0.43
+								},
+								{
+									name = "spine_3"
+									weight = 0.43
+								},
+								{
+									name = "spine_2"
+									weight = 0.18
+								},
+								{
+									name = "spine_1"
+									weight = 0.18
+								},
+								{
+									name = "spine_0"
+									weight = 0.12
+								},
+								{
+									name = "pelvis"
+									weight = 0.05
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_full_reach_running"
+						lookat_chain = 
+						{
+							name = "aim_test_full_reach_running"
+							bones = 
+							[
+								{
+									name = "weaponhier_jnt"
+									weight = 0.75
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_head_only_up_down_run"
+						lookat_chain = 
+						{
+							name = "aim_test_head_only_up_down_run"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.5
+								},
+								{
+									name = "neck_0"
+									weight = 0.42
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_010"
+						lookat_chain = 
+						{
+							name = "aim_test_010"
+							bones = 
+							[
+								{
+									name = "spine_2"
+									weight = 0.35
+								},
+								{
+									name = "spine_1"
+									weight = 0.3
+								},
+								{
+									name = "spine_0"
+									weight = 0.25
+								},
+								{
+									name = "pelvis"
+									weight = 0.15
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_011"
+						lookat_chain = 
+						{
+							name = "aim_test_011"
+							bones = 
+							[
+								{
+									name = "spine_2"
+									weight = 1.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_012_extra_heading_rot_on_runs"
+						lookat_chain = 
+						{
+							name = "aim_test_012_extra_heading_rot_on_runs"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 0.85
+								},
+								{
+									name = "spine_3"
+									weight = 0.85
+								},
+								{
+									name = "spine_2"
+									weight = 0.696
+								},
+								{
+									name = "spine_1"
+									weight = 0.7
+								},
+								{
+									name = "spine_0"
+									weight = 0.5
+								},
+								{
+									name = "pelvis"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_012_extra_heading_rot_on_runs1"
+						lookat_chain = 
+						{
+							name = "aim_test_012_extra_heading_rot_on_runs1"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.5
+								},
+								{
+									name = "neck_0"
+									weight = 0.5
+								},
+								{
+									name = "spine_3"
+									weight = 0.5
+								},
+								{
+									name = "spine_2"
+									weight = 0.41
+								},
+								{
+									name = "spine_1"
+									weight = 0.39
+								},
+								{
+									name = "spine_0"
+									weight = 0.33
+								},
+								{
+									name = "pelvis"
+									weight = 0.25
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_test_head"
+						lookat_chain = 
+						{
+							name = "aim_test_head"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.32
+								},
+								{
+									name = "neck_0"
+									weight = 0.18
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_body"
+						lookat_chain = 
+						{
+							name = "aim_matrix_body"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.75
+								},
+								{
+									name = "neck_0"
+									weight = 0.6
+								},
+								{
+									name = "spine_3"
+									weight = 0.43
+								},
+								{
+									name = "spine_2"
+									weight = 0.24
+								},
+								{
+									name = "spine_1"
+									weight = 0.24
+								},
+								{
+									name = "spine_0"
+									weight = 0.2
+								},
+								{
+									name = "pelvis"
+									weight = 0.1
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_gun"
+						lookat_chain = 
+						{
+							name = "aim_matrix_gun"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 1.0
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.6
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_below_0"
+						lookat_chain = 
+						{
+							name = "aim_matrix_below_0"
+							bones = 
+							[
+								{
+									name = "spine_2"
+									weight = 0.803
+								},
+								{
+									name = "spine_1"
+									weight = 0.64
+								},
+								{
+									name = "spine_0"
+									weight = 0.5
+								},
+								{
+									name = "pelvis"
+									weight = 0.39
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_body_half"
+						lookat_chain = 
+						{
+							name = "aim_matrix_body_half"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.32
+								},
+								{
+									name = "neck_0"
+									weight = 0.3
+								},
+								{
+									name = "spine_3"
+									weight = 0.21
+								},
+								{
+									name = "spine_2"
+									weight = 0.12
+								},
+								{
+									name = "spine_1"
+									weight = 0.12
+								},
+								{
+									name = "spine_0"
+									weight = 0.1
+								},
+								{
+									name = "pelvis"
+									weight = 0.05
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_gun_half"
+						lookat_chain = 
+						{
+							name = "aim_matrix_gun_half"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 0.5
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.3
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_below_0_half"
+						lookat_chain = 
+						{
+							name = "aim_matrix_below_0_half"
+							bones = 
+							[
+								{
+									name = "spine_2"
+									weight = 0.4
+								},
+								{
+									name = "spine_1"
+									weight = 0.32
+								},
+								{
+									name = "spine_0"
+									weight = 0.25
+								},
+								{
+									name = "pelvis"
+									weight = 0.2
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_additive_experiment_delete_iny"
+						lookat_chain = 
+						{
+							name = "aim_additive_experiment_delete_iny"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 1.0
+								},
+								{
+									name = "neck_0"
+									weight = 0.86
+								},
+								{
+									name = "spine_3"
+									weight = 0.83
+								},
+								{
+									name = "spine_2"
+									weight = 0.68
+								},
+								{
+									name = "spine_1"
+									weight = 0.45
+								},
+								{
+									name = "spine_0"
+									weight = 0.33
+								},
+								{
+									name = "pelvis"
+									weight = 0.26
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_additive_experiment_delete_inx"
+						lookat_chain = 
+						{
+							name = "aim_additive_experiment_delete_inx"
+							bones = 
+							[
+								{
+									name = "head_0"
+									weight = 0.48
+								},
+								{
+									name = "neck_0"
+									weight = 0.36
+								},
+								{
+									name = "spine_3"
+									weight = 0.23
+								},
+								{
+									name = "spine_2"
+									weight = 0.2
+								},
+								{
+									name = "spine_1"
+									weight = 0.1
+								},
+								{
+									name = "spine_0"
+									weight = 0.0
+								},
+								{
+									name = "pelvis"
+									weight = 0.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_to_axis_of_intent"
+						lookat_chain = 
+						{
+							name = "aim_matrix_to_axis_of_intent"
+							bones = 
+							[
+								{
+									name = "chesthier_offset"
+									weight = 1.0
+								},
+								{
+									name = "chesthier_offset"
+									weight = 0.0
+								},
+								{
+									name = "spine_2"
+									weight = 0.8
+								},
+								{
+									name = "spine_1"
+									weight = 0.64
+								},
+								{
+									name = "spine_0"
+									weight = 0.5
+								},
+								{
+									name = "pelvis"
+									weight = 0.39
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_gun1"
+						lookat_chain = 
+						{
+							name = "aim_gun1"
+							bones = 
+							[
+								{
+									name = "weapon_r_iktarget"
+									weight = 1.0
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 1.0
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "aim_matrix_below_01"
+						lookat_chain = 
+						{
+							name = "aim_matrix_below_01"
+							bones = 
+							[
+								{
+									name = "spine_2"
+									weight = 1.0
+								},
+								{
+									name = "spine_1"
+									weight = 0.84
+								},
+								{
+									name = "spine_0"
+									weight = 0.7
+								},
+								{
+									name = "pelvis"
+									weight = 0.59
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "activity_aim_tweaks_gun_spine"
+						lookat_chain = 
+						{
+							name = "activity_aim_tweaks_gun_spine"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 1.0
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.5
+								},
+								{
+									name = "spine_2"
+									weight = 0.3
+								},
+								{
+									name = "spine_1"
+									weight = 0.2
+								},
+								{
+									name = "spine_0"
+									weight = 0.1
+								},
+							]
+						}
+					},
+					{
+						_class = "LookAtChain"
+						name = "activity_aim_tweaks_gun_spine_half"
+						lookat_chain = 
+						{
+							name = "activity_aim_tweaks_gun_spine_half"
+							bones = 
+							[
+								{
+									name = "weaponhier_r_iktarget"
+									weight = 0.65
+								},
+								{
+									name = "weaponhier_jnt"
+									weight = 0.3
+								},
+								{
+									name = "spine_2"
+									weight = 0.15
+								},
+								{
+									name = "spine_1"
+									weight = 0.1
+								},
+								{
+									name = "spine_0"
+									weight = 0.05
+								},
+							]
+						}
+					},
+				]
+			},
+			{
+				_class = "Folder"
+				name = "AoProxyCapsules"
+				children = 
+				[
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "head_0"
+							radius = 4.56249
+							point0 = [ 0.548162, 1.32232, 0.0 ]
+							point1 = [ 2.72269, 0.298181, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "spine_0"
+							radius = 5.86083
+							point0 = [ -2.7, 1.0, 3.0 ]
+							point1 = [ -2.7, 1.0, -3.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "spine_2"
+							radius = 5.86083
+							point0 = [ -2.61519, 0.547004, 1.9 ]
+							point1 = [ -2.61519, 0.547004, -1.9 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "spine_3"
+							radius = 7.10434
+							point0 = [ 0.467953, 0.88271, 1.9 ]
+							point1 = [ 0.467953, 0.88271, -1.9 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "leg_upper_r"
+							radius = 4.11706
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -16.98, 0.215972, -0.592158 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "leg_upper_l"
+							radius = 4.11706
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ 16.98, -0.215972, 0.592158 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "leg_lower_r"
+							radius = 3.35306
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -14.256, -0.069175, -0.686705 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "leg_lower_l"
+							radius = 3.35306
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ 14.256, 0.069175, 0.686705 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "arm_upper_l"
+							radius = 3.18769
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ 7.86575, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "arm_upper_r"
+							radius = 3.18769
+							point0 = [ 0.0, 0.0, 0.0 ]
+							point1 = [ -7.86575, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "arm_lower_l"
+							radius = 1.84066
+							point0 = [ -1.18304, 0.0, 0.0 ]
+							point1 = [ 7.86575, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "arm_lower_r"
+							radius = 1.84066
+							point0 = [ 1.18304, 0.0, 0.0 ]
+							point1 = [ -7.86575, 0.0, 0.0 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "hand_r"
+							radius = 1.84066
+							point0 = [ 0.582719, -0.510149, -0.05536 ]
+							point1 = [ -2.42216, -1.05179, -0.111563 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "hand_l"
+							radius = 1.84066
+							point0 = [ -0.582719, 0.510149, 0.05536 ]
+							point1 = [ 2.42216, 1.05179, 0.111563 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "ankle_r"
+							radius = 2.28692
+							point0 = [ 0.143441, 2.52988, 0.392931 ]
+							point1 = [ -7.64466, -1.16415, -0.130248 ]
+						}
+					},
+					{
+						_class = "GenericGameData"
+						game_class = "ao_proxy_capsule"
+						game_keys = 
+						{
+							bonename = "ankle_l"
+							radius = 2.28692
+							point0 = [ -0.143441, -2.52988, -0.392931 ]
+							point1 = [ 7.64466, 1.16415, 0.130248 ]
+						}
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

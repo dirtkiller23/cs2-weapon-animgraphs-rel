@@ -23883,11 +23883,11 @@
 					{
 						m_nodeID = 
 						{
-							m_id = 1836783740
+							m_id = 1423196469
 						}
 						m_outputID = 
 						{
-							m_id = 1836783740
+							m_id = 1423196469
 						}
 					}
 					m_additiveInput = 
@@ -95949,11 +95949,11 @@
 						{
 							m_nodeID = 
 							{
-								m_id = 1836783740
+								m_id = 1423196469
 							}
 							m_outputID = 
 							{
-								m_id = 1836783740
+								m_id = 1423196469
 							}
 						},
 						{
@@ -111129,6 +111129,25 @@
 				"kevlar_vest",
 				"kevlar_and_helmet",
 			]
+		},
+		{
+			_class = "CBoolAnimParameter"
+			m_name = "b_Pluey"
+			m_group = "player_main"
+			m_id = 
+			{
+				m_id = 2455899309
+			}
+			m_componentName = ""
+			m_previewButton = "ANIMPARAM_BUTTON_NONE"
+			m_bUseMostRecentValue = false
+			m_bAutoReset = false
+			m_eNetworkSetting = "Auto"
+			m_bGameWritable = true
+			m_bGraphWritable = true
+			m_bIsReferenced = false
+			m_bNetworkingRequested = false
+			m_bDefaultValue = false
 		},
 	]
 	m_localTags = 

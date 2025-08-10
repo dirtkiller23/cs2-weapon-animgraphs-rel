@@ -1,0 +1,75 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "Skeleton"
+				children = 
+				[
+					{
+						_class = "Bone"
+						name = "pelvis"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "spine_0"
+								origin = [ 0.934155, 0.090511, 0.000004 ]
+								angles = [ 0.000009, 6.615891, 0.000004 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "leg_upper_l"
+								origin = [ -3.771416, 0.913483, 3.694225 ]
+								angles = [ -2.271208, 179.170776, -15.008623 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "leg_upper_r"
+								origin = [ -3.771484, 0.913483, -3.694221 ]
+								angles = [ -2.271207, -0.829218, -15.008682 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ -2.853549, -0.0, 42.82481 ]
+						angles = [ -90.0, -90.0, 0.0 ]
+						do_not_discard = true
+					},
+					{
+						_class = "Bone"
+						name = "root_motion"
+						children = 
+						[
+							{
+								_class = "Bone"
+								name = "leg_l_offset"
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ -0.0, -0.0, -0.0 ]
+								do_not_discard = true
+							},
+							{
+								_class = "Bone"
+								name = "leg_r_offset"
+								origin = [ 0.0, 0.0, 0.0 ]
+								angles = [ -0.0, -0.0, -0.0 ]
+								do_not_discard = true
+							},
+						]
+						origin = [ 0.0, 0.0, 0.0 ]
+						angles = [ -0.0, 90.0, 90.0 ]
+						do_not_discard = true
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}

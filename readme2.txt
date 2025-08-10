@@ -4,3 +4,5 @@ CS2 Weapon Animgraph releases.
  Spawn custom animgraphed weapons with ent_create custom_weaponname or compile the vdata_polygon map.
  To edit animgraphs, you need the cutdown Dota 2 SDK with the Animgraph editor. 
  Also includes decompiled weapon models and a player animgraph.
+  To edit animgraphs, you need the cutdown Dota 2 SDK with the Animgraph editor. Also includes decompiled weapon models # **(OBSOLETE)** and playermodel animgraphs.
+ To use custom animgraphed playermodels, use the character_switcher map and compile a Pulse file.

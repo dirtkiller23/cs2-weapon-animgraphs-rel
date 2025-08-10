@@ -1,17 +1,32 @@
-# **Viewmodel graphs/models are now obsolete due to AG2 release. Same will likely happen to playermodel graphs. The repo is being left in this state for preservation/reference reasons.**
+# **Viewmodel graphs/models are now obsolete due to AG2 release. Same will likely happen to playermodel graphs. Now only ships with playermodel graphs.**
 
 
 CS2 Weapon Animgraph releases.
  To get the vdata/animgraph resources to show up, you may need to unhide the resources in assettypes_common.txt 
 (Remove the "csgo" from m_HideForRetailMods in both vdata_asset and anim_graph). 
  Spawn custom animgraphed weapons with ent_create custom_weaponname or compile the vdata_polygon map.
- To edit animgraphs, you need the cutdown Dota 2 SDK with the Animgraph editor. Also includes decompiled weapon models and playermodel animgraphs.
+ To edit animgraphs, you need the cutdown Dota 2 SDK with the Animgraph editor. Also includes decompiled weapon models # **(OBSOLETE)** and playermodel animgraphs.
+ To use custom animgraphed playermodels, use the character_switcher map and compile a Pulse file.
 
-WARNING!
-This mod now includes direct replacement of game's playermodel T/CT animsets.
-If you know what you're doing, remove OFF from extensions vmdlOFF and vanmgrphOFF in:
-content/xrd200_rel/characters/models/shared/animgraphs and content/xrd200_rel/characters/models/shared/animsets.
-This will compile the animsets and force their usage over the in-game ones!
+Pulse file definition for assettypes_common.txt:
+```pulse_graph = 
+{
+	_class = "CResourceAssetTypeInfo"
+	m_FriendlyName = "Pulse Graph"
+	m_Ext = "vpulse"
+	m_IconLg = "game:tools/images/assettypes/vpulse_lg.png"
+	m_IconSm = "game:tools/images/assettypes/vpulse_sm.png"
+	m_CompilerIdentifier = "CompileKV3"
+	m_bContentFileIsText = true
+	m_Blocks = 
+	[
+		{
+			m_BlockID = "DATA"
+			m_Encoding = "RESOURCE_ENCODING_KV3"
+		},
+	]
+}
+```
 ![NVIDIA_Overlay_TVnXoEqiCK](https://github.com/user-attachments/assets/7c297012-a374-4284-9e09-8b4c94f36c0f)
 ![NVIDIA_Overlay_qrQWHW8gxq](https://github.com/user-attachments/assets/a4cfa97c-dc2a-47c3-85f0-1ce03c11928f)
  

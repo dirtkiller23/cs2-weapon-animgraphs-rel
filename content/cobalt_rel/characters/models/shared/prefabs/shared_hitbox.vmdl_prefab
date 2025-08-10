@@ -1,0 +1,236 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc40:version{da0ab1f8-9722-4910-94b8-10b6a08c0934} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "HitboxSetList"
+				children = 
+				[
+					{
+						_class = "HitboxSet"
+						name = "cstrike"
+						children = 
+						[
+							{
+								_class = "HitboxCapsule"
+								name = "head_0"
+								parent_bone = "head_0"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 1
+								radius = 4.3
+								point0 = [ -1.0, 1.8, 0.0 ]
+								point1 = [ 3.5, 0.2, 0.0 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "neck_0"
+								parent_bone = "neck_0"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 8
+								radius = 3.5
+								point0 = [ 0.0, -0.4, 0.0 ]
+								point1 = [ 1.4, -0.2, 0.0 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "pelvis"
+								parent_bone = "pelvis"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 3
+								radius = 6.0
+								point0 = [ -2.7, 1.1, -3.2 ]
+								point1 = [ -2.7, 1.1, 3.2 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "spine_0"
+								parent_bone = "spine_0"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 3
+								radius = 6.0
+								point0 = [ 1.4, 0.8, 3.1 ]
+								point1 = [ 1.4, 0.8, -3.1 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "spine_1"
+								parent_bone = "spine_1"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 2
+								radius = 6.5
+								point0 = [ 3.8, 0.8, -2.4 ]
+								point1 = [ 3.8, 0.4, 2.4 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "spine_2"
+								parent_bone = "spine_2"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 2
+								radius = 6.2
+								point0 = [ 4.8, 0.15, -4.1 ]
+								point1 = [ 4.8, 0.15, 4.1 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "spine_3"
+								parent_bone = "spine_3"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 2
+								radius = 5.0
+								point0 = [ 2.5, -0.6, -6.0 ]
+								point1 = [ 2.5, -0.6, 6.0 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "leg_upper_l"
+								parent_bone = "leg_upper_l"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 6
+								radius = 5.0
+								point0 = [ 1.3, -0.2, 0.0 ]
+								point1 = [ 16.5, -0.7, 0.0 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "leg_upper_r"
+								parent_bone = "leg_upper_r"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 7
+								radius = 5.0
+								point0 = [ -1.3, 0.0, -0.6 ]
+								point1 = [ -16.5, 0.0, -0.7 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "leg_lower_l"
+								parent_bone = "leg_lower_l"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 6
+								radius = 4.0
+								point0 = [ 0.1, -0.4, 0.2 ]
+								point1 = [ 17.0, -0.4, 0.7 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "leg_lower_r"
+								parent_bone = "leg_lower_r"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 7
+								radius = 4.0
+								point0 = [ -0.1, 0.0, -0.2 ]
+								point1 = [ -17.0, 0.4, -0.7 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "ankle_l"
+								parent_bone = "ankle_l"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 6
+								radius = 2.6
+								point0 = [ -0.0, -3.43, -0.52 ]
+								point1 = [ 8.0, 0.74, 0.33 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "ankle_r"
+								parent_bone = "ankle_r"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 7
+								radius = 2.6
+								point0 = [ -7.98, -0.75, -0.27 ]
+								point1 = [ -0.02, 3.44, 0.58 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "hand_l"
+								parent_bone = "hand_l"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 4
+								radius = 2.3
+								point0 = [ 0.0, 0.3, 0.0 ]
+								point1 = [ 3.59, 1.15, 0.11 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "hand_r"
+								parent_bone = "hand_r"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 5
+								radius = 2.3
+								point0 = [ 0.0, -0.3, 0.02 ]
+								point1 = [ -3.44, -1.17, -0.09 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "arm_upper_l"
+								parent_bone = "arm_upper_l"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 4
+								radius = 3.3
+								point0 = [ 0.0, 0.0, 0.0 ]
+								point1 = [ 11.2, 0.0, 0.0 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "arm_lower_l"
+								parent_bone = "arm_lower_l"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 4
+								radius = 3.0
+								point0 = [ 0.0, 0.0, 0.0 ]
+								point1 = [ 10.0, 0.0, 0.0 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "arm_upper_r"
+								parent_bone = "arm_upper_r"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 5
+								radius = 3.3
+								point0 = [ 0.0, 0.0, 0.0 ]
+								point1 = [ -11.2, 0.0, 0.0 ]
+							},
+							{
+								_class = "HitboxCapsule"
+								name = "arm_lower_r"
+								parent_bone = "arm_lower_r"
+								surface_property = "playerflesh"
+								translation_only = false
+								group_id = 5
+								radius = 3.0
+								point0 = [ 0.0, 0.0, 0.0 ]
+								point1 = [ -10.0, 0.0, -0.5 ]
+							},
+						]
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}
