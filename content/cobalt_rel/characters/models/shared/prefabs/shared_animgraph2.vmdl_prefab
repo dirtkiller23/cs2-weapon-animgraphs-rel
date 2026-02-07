@@ -1,0 +1,53 @@
+<!-- kv3 encoding:text:version{e21c7f3c-8a33-41c5-9977-a76d3a32aa0d} format:modeldoc41:version{12fc9d44-453a-4ae4-b4d9-7e2ac0bbd4e0} -->
+{
+	rootNode = 
+	{
+		_class = "RootNode"
+		children = 
+		[
+			{
+				_class = "NmSkeletonList"
+				children = 
+				[
+					{
+						_class = "NmSkeletonReference"
+						filename = "animation/skeletons/characters/worldmodel.vnmskel"
+					},
+					{
+						_class = "NmSkeletonReference"
+						filename = "animation/skeletons/characters/viewmodel.vnmskel"
+					},
+				]
+			},
+			{
+				_class = "AnimGraph2List"
+				children = 
+				[
+					{
+						_class = "DefaultAnimGraph2"
+						filename = "animation/graphs/worldmodel/worldmodel.vnmgraph"
+					},
+					{
+						_class = "AnimGraph2"
+						name = "uimodel"
+						filename = "animation/graphs/ui/uimodel.vnmgraph"
+					},
+					{
+						_class = "AnimGraph2"
+						name = "hudmodel"
+						filename = "animation/graphs/viewmodel/viewmodel.vnmgraph"
+					},
+					{
+						_class = "AnimGraph2"
+						name = "worldmodel"
+						filename = "animation/graphs/worldmodel/worldmodel.vnmgraph"
+					},
+				]
+			},
+		]
+		model_archetype = ""
+		primary_associated_entity = ""
+		anim_graph_name = ""
+		document_sub_type = "ModelDocSubType_None"
+	}
+}
